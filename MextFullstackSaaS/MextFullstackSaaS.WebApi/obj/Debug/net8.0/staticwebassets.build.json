@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kmUBu/knsR9EbUQs8hSArsVx75teISSBKSUpGw/clec=",
+  "Source": "MextFullstackSaaS.WebApi",
+  "BasePath": "_content/MextFullstackSaaS.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
