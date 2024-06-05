@@ -10,3 +10,16 @@ C:\Users\user\Desktop\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.
 C:\Users\user\Desktop\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\refint\MextFullstackSaaS.Domain.dll
 C:\Users\user\Desktop\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.pdb
 C:\Users\user\Desktop\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\ref\MextFullstackSaaS.Domain.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\bin\Debug\net8.0\MextFullstackSaaS.Domain.deps.json
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\bin\Debug\net8.0\MextFullstackSaaS.Domain.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\bin\Debug\net8.0\MextFullstackSaaS.Domain.pdb
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.sourcelink.json
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\refint\MextFullstackSaaS.Domain.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\MextFullstackSaaS.Domain.pdb
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Domain\obj\Debug\net8.0\ref\MextFullstackSaaS.Domain.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lj5YJ9eeahs=",
+  "dgSpecHash": "lah4/lTf5PU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

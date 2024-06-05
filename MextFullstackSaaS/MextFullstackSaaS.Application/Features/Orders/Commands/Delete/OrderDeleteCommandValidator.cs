@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
@@ -13,8 +14,10 @@ namespace MextFullstackSaaS.Application.Features.Orders.Commands.Delete
     public class OrderDeleteCommandValidator: AbstractValidator<OrderDeleteCommand>
     {
         private readonly IApplicationDbContext _dbContext;
-        public OrderDeleteCommandValidator(IApplicationDbContext dbContext)
+        private readonly ICurrentUserService _currentUserService;
+        public OrderDeleteCommandValidator(IApplicationDbContext dbContext,ICurrentUserService currentUserService)
         {
+            _currentUserService = currentUserService;
             _dbContext = dbContext;
 
             RuleFor(x => x.Id)
@@ -25,14 +28,27 @@ namespace MextFullstackSaaS.Application.Features.Orders.Commands.Delete
             RuleFor(x => x.Id)
                 .MustAsync(IsOrderExists)
                 .WithMessage("The selected order does not exist in the database.");
+
+            RuleFor(x => x.Id)
+                .MustAsync(IsTheSameUserAsync)
+                .WithErrorCode("you are not authorized to delete this order");
         }
 
-        public Task<bool> IsOrderExists(Guid id, CancellationToken cancellationToken)
+        private Task<bool> IsOrderExists(Guid id, CancellationToken cancellationToken)
         {
             // If the order exists we'll return true, otherwise we'll return false.
             // If we return true this will be a valid order.
 
             return _dbContext.Orders.AnyAsync(x => x.Id == id, cancellationToken);
+        }
+        private Task<bool> IsTheSameUserAsync(Guid id, CancellationToken cancellationToken)
+        {
+
+            return _dbContext.Orders
+                .Where(x => x.Id == _currentUserService.UserId)
+                .AnyAsync(x => x.Id == id, cancellationToken);
+
+
         }
     }
 }

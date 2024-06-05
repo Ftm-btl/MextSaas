@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KT36PMrbplY=",
+  "dgSpecHash": "KrIxf0t4DWk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.1\\fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",

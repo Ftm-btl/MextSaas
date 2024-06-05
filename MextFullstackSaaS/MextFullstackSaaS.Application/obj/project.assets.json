@@ -860,11 +860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj",
       "projectName": "MextFullstackSaaS.Application",
-      "projectPath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Application\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -882,8 +882,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj"
+            "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj"
             }
           }
         }

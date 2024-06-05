@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using MextFullstackSaaS.Application.Common.FluentValidator.BaseValidators;
 using MextFullstackSaaS.Application.Common.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,12 +9,11 @@ using System.Threading.Tasks;
 
 namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
 {
-    public class UserAuthRegisterCommandValidator : AbstractValidator<UserAuthRegisterCommand>
+    public class UserAuthRegisterCommandValidator : UserAuthValidatorBase<UserAuthRegisterCommand>
     {
-        private readonly IIdentityService _identityService;
-        public UserAuthRegisterCommandValidator(IIdentityService identityService)
+        public UserAuthRegisterCommandValidator(IIdentityService identityService):base (identityService)
         {
-            _identityService = identityService;
+
 
             RuleFor(x => x.Email)
                 .NotEmpty().WithMessage("Email is required")

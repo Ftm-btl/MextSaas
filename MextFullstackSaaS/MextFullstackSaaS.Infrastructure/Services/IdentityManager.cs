@@ -1,15 +1,17 @@
 ﻿using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Application.Common.Models;
 using MextFullstackSaaS.Application.Features.UserAuth.Commands.Register;
-using MextFullstackSaaS.Domain.Entities;
 using MextFullstackSaaS.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
 using MextFullstackSaaS.Application.Common.Models.Auth;
 using MextFullstackSaaS.Application.Features.UserAuth.Commands.login;
+using Microsoft.EntityFrameworkCore;
+using MextFullstackSaaS.Application.Features.UserAuth.Commands.VerifyEmail;
+using System.Net;
 
 namespace MextFullstackSaaS.Infrastructure.Services
 {
-    public class IdentityManager:IIdentityService
+    public class IdentityManager: IIdentityService
     {
         private readonly IJwtService _jwtService;
         private readonly UserManager<User> _userManager;
@@ -18,6 +20,11 @@ namespace MextFullstackSaaS.Infrastructure.Services
         {
             _userManager = userManager;
             _jwtService = jwtService;
+        }
+
+        public Task<bool> CheckIfEmailVerifiedAysnc(string email, CancellationToken cancellationToken)
+        {
+            return _userManager.Users.AnyAsync(x => x.Email == email && x.EmailConfirmed, cancellationToken);
         }
 
         public async Task<bool> CheckPasswordSignInAsync(string email, string password, CancellationToken cancellationToken)
@@ -64,6 +71,21 @@ namespace MextFullstackSaaS.Infrastructure.Services
             var token=await _userManager.GenerateEmailConfirmationTokenAsync(user);
 
             return new UserAuthRegisterResponseDto(user.Id, user.Email, user.FirstName, token);
+        }
+
+        public async Task<bool> VerifyEmailAsync(UserAuthVerifyEmailCommand command, CancellationToken cancellationToken)
+        {
+            var user = await _userManager.FindByEmailAsync(command.Email);
+
+            var result = await _userManager.ConfirmEmailAsync(user, command.Token);
+
+          
+
+            if (!result.Succeeded)
+            {
+                throw new Exception("User email");
+            }
+            return true;
         }
 
        

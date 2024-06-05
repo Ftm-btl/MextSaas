@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using static System.Net.WebRequestMethods;
 
 namespace MextFullstackSaaS.Infrastructure.Services
@@ -22,8 +23,11 @@ namespace MextFullstackSaaS.Infrastructure.Services
         private const string ApiBaseUrl = "https://localhost:7281/api/";
         public Task SendEmailVerificationAsync(EmailSendEmailVerificationDto emailDto, CancellationToken cancellationToken)
         {
+            var encodedEmail=HttpUtility.UrlEncode(emailDto.Email);
 
-            var link = $"{ApiBaseUrl}UserAuth/VerifyEmail?email={emailDto.Email}&token{emailDto.Token}";
+            var encodedToken=HttpUtility.UrlEncode(emailDto.Token);
+
+            var link = $"{ApiBaseUrl}UserAuth/verify-email?email={encodedEmail}&token={encodedToken}";
 
             var message = new EmailMessage();
             message.From = "onboarding@resend.dev";

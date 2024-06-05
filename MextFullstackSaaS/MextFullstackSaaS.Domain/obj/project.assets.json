@@ -625,11 +625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj",
       "projectName": "MextFullstackSaaS.Domain",
-      "projectPath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

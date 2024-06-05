@@ -12,5 +12,7 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.login
     {
         public string Email { get; set; }
         public string Password { get; set; }
+
+
     }
 }

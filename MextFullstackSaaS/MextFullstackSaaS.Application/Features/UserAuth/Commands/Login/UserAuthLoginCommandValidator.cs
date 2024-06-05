@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using MextFullstackSaaS.Application.Common.FluentValidator.BaseValidators;
 using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Application.Features.UserAuth.Commands.login;
 using System;
@@ -9,17 +10,12 @@ using System.Threading.Tasks;
 
 namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Login
 {
-    public class UserAuthLoginCommandValidator : AbstractValidator<UserAuthLoginCommand>
+    public class UserAuthLoginCommandValidator : UserAuthValidatorBase<UserAuthLoginCommand>
     {
-        private readonly IIdentityService _identityService;
-
-        public UserAuthLoginCommandValidator(IIdentityService identityService)
-        {
-            _identityService = identityService;
-
-            RuleFor(x => x.Email)
-            .NotEmpty().WithMessage("Email is required")
-            .EmailAddress().WithMessage("Email is not valid");
+        public UserAuthLoginCommandValidator(IIdentityService identityService) : base(identityService)
+        {   RuleFor(x => x.Email)
+             .NotEmpty().WithMessage("Email is required")
+             .EmailAddress().WithMessage("Email is not valid");
 
             RuleFor(x => x.Password)
                 .NotEmpty().WithMessage("Password is required")
@@ -29,10 +25,20 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Login
                 .MustAsync((x, y, cancellationToken) => CheckPasswordSignInAsync(x.Email, x.Password, cancellationToken))
                 .WithMessage("Your Email or Password is incorrect. Please try again.");
 
+            RuleFor(x => x.Email)
+                .MustAsync(CheckIfEmailVerifiedAysnc)
+                .WithMessage("Email is not verified. please verify your email.");
+
         }
-        private Task<bool> CheckPasswordSignInAsync(string email,string password, CancellationToken cancellationToken)
+        private Task<bool> CheckIfEmailVerifiedAysnc(string email, CancellationToken cancellationToken)
         {
-            return _identityService.CheckPasswordSignInAsync(email, password, cancellationToken); 
+            return _identityService.CheckIfEmailVerifiedAysnc(email, cancellationToken);
         }
+        private Task<bool> CheckPasswordSignInAsync(string email, string password, CancellationToken cancellationToken)
+        {
+            return _identityService.CheckPasswordSignInAsync(email, password, cancellationToken);
+        }
+
+
     }
 }
