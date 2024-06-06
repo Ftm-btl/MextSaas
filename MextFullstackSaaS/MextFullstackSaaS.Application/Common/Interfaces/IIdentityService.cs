@@ -17,5 +17,8 @@ namespace MextFullstackSaaS.Application.Common.Interfaces
 
         Task<bool> VerifyEmailAsync(UserAuthVerifyEmailCommand command, CancellationToken cancellationToken);
         Task<bool> CheckIfEmailVerifiedAysnc(string email, CancellationToken cancellationToken);
+        Task<bool> GenerateForgetPasswordTokenAsync(string email, CancellationToken cancellationToken);
+       
+        Task<bool> ResetPasswordAsync(string email, string token, string newPassword, CancellationToken cancellationToken);
     }
 }

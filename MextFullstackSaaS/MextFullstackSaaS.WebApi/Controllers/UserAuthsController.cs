@@ -1,6 +1,8 @@
 ﻿using MediatR;
+using MextFullstackSaaS.Application.Features.UserAuth.Commands.ForgetPassword;
 using MextFullstackSaaS.Application.Features.UserAuth.Commands.login;
 using MextFullstackSaaS.Application.Features.UserAuth.Commands.Register;
+using MextFullstackSaaS.Application.Features.UserAuth.Commands.ResetPassword;
 using MextFullstackSaaS.Application.Features.UserAuth.Commands.VerifyEmail;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,11 +10,11 @@ namespace MextFullstackSaaS.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserAuthsController : ControllerBase
+    public class UsersAuthController : ControllerBase
     {
         private readonly ISender _mediatr;
 
-        public UserAuthsController(ISender mediatr)
+        public UsersAuthController(ISender mediatr)
         {
             _mediatr = mediatr;
         }
@@ -34,9 +36,21 @@ namespace MextFullstackSaaS.WebApi.Controllers
 
         }
         [HttpGet("verify-email")]
-        public async Task<IActionResult> VerifyEmailAsync([FromQuery] UserAuthVerifyEmailCommand command,CancellationToken cancellationToken)
+        public async Task<IActionResult> VerifyEmailAsync([FromQuery] UserAuthVerifyEmailCommand command, CancellationToken cancellationToken)
+        {
+            return Ok(await _mediatr.Send(command, cancellationToken));
+        }
+        [HttpPost("forget-password")]
+        public async Task<IActionResult> ForgetPasswordAysnc( UserAuthForgetPasswordCommand command,CancellationToken cancellationToken)
         {
             //throw new ArgumentNullException(command.FirstName, "First name is required");
+
+            return Ok(await _mediatr.Send(command, cancellationToken));
+
+        }
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPasswordAysnc( UserAuthResetPasswordCommand command,CancellationToken cancellationToken)
+        {
 
             return Ok(await _mediatr.Send(command, cancellationToken));
 

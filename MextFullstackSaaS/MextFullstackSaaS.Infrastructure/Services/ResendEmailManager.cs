@@ -27,7 +27,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
 
             var encodedToken=HttpUtility.UrlEncode(emailDto.Token);
 
-            var link = $"{ApiBaseUrl}UserAuth/verify-email?email={encodedEmail}&token={encodedToken}";
+            var link = $"{ApiBaseUrl}UsersAuth/verify-email?email={encodedEmail}&token={encodedToken}";
 
             var message = new EmailMessage();
             message.From = "onboarding@resend.dev";
@@ -35,7 +35,31 @@ namespace MextFullstackSaaS.Infrastructure.Services
             message.Subject = "Email Verification | IconBuilderAI!";
             message.HtmlBody = $"<div><a href=\"{link}\" target=\"_blank\"><strong>Greetings<strong> 👋🏻 from .NET</a></div>";
 
-            return _resend.EmailSendAsync(message);
+            return _resend.EmailSendAsync(message,cancellationToken);
+        }
+
+        public  Task SendPasswordResetLinkAsync(string email, string token, CancellationToken cancellationToken)
+        {
+            var encodedEmail = HttpUtility.UrlEncode(email);
+
+            var encodedToken = HttpUtility.UrlEncode(token);
+
+            var link = $"{ApiBaseUrl}UserAuth/forget-password?email={encodedEmail}&token={encodedToken}&newPassword=";
+
+            var message = new EmailMessage();
+            message.From = "onboarding@resend.dev";
+            message.To.Add(email);
+            message.Subject = "Email Verification | IconBuilderAI!";
+            message.HtmlBody = $"<div><a href=\"{link}\" target=\"_blank\"><strong>Greetings<strong> 👋🏻 from .NET</a></div>";
+            
+            
+            return _resend.EmailSendAsync(message,cancellationToken);
+        }
+
+        public Task ResetPasswordAsync(string email, string token, string newPassword, CancellationToken cancellationToken)
+        {
+
+            return Task.FromResult(true);
         }
     }
 }
