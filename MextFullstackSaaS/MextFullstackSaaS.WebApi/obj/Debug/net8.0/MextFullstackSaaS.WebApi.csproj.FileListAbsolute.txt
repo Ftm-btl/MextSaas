@@ -275,3 +275,4 @@ C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebA
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\obj\Debug\net8.0\MextFull.B522B9D9.Up2Date
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\obj\Debug\net8.0\MextFullstackSaaS.WebApi.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\obj\Debug\net8.0\ref\MextFullstackSaaS.WebApi.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\OpenAI.dll

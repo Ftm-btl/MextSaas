@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using OpenAI.Extensions;
+using OpenAI.Managers;
+using OpenAI.ObjectModels;
 using Resend;
 
 
@@ -46,6 +49,12 @@ namespace MextFullstackSaaS.Infrastructure
             services.AddScoped<IJwtService, JwtManager>();
             services.AddScoped<IIdentityService, IdentityManager>();
             services.AddScoped<IEmailService, ResendEmailManager>();
+
+            //OpenAI
+            services.AddOpenAIService(settings =>
+                settings.ApiKey = configuration.GetSection("OpenAIApiKey").Value!);
+
+            services.AddScoped<IOpenAIService,OpenAIManager>();
 
             // Resend
             services.AddOptions();
