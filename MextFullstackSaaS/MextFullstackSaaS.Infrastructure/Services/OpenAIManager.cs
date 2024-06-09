@@ -26,13 +26,19 @@ namespace MextFullstackSaaS.Infrastructure.Services
             var imageResult = await _openAIService.Image.CreateImage(new ImageCreateRequest
             {
                 Prompt = CreateIconPrompt(requestDto),
-                N = requestDto.Model==AIModelType.DallE3 ? 3 : requestDto.Quantity,
+                N = requestDto.Model==AIModelType.DallE3 ? 1 : requestDto.Quantity,
                 Size = GetSize(requestDto.Size),
                 ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Url,
                 User = _currentUserService.UserId.ToString(),
                 Model=Models.Dall_e_3
             },cancellationToken);
             // TODO: Add error handling / If the model is Dall-e-3, Image size must be at least 1024*1024
+
+            if (!imageResult.Successful) 
+            {
+
+            }
+
             return imageResult
                 .Results
                 .Select(x => x.Url)
