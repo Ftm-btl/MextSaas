@@ -1,8 +1,10 @@
 using MextFullstackSaaS.Application;
+using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Domain.Settings;
 using MextFullstackSaaS.Infrastructure;
 using MextFullstackSaaS.WebApi;
 using MextFullstackSaaS.WebApi.Filters;
+using MextFullstackSaaS.WebApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
@@ -41,6 +43,8 @@ try
         options.SuppressModelStateInvalidFilter = true;
     });
 
+    builder.Services.AddSingleton<IRootPathService>(new RootPathManager(builder.Environment.WebRootPath));
+
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
@@ -49,6 +53,8 @@ try
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+
+    app.UseStaticFiles();
 
     var requestLocalizationOptions = app.Services.GetRequiredService<IOptions<RequestLocalizationOptions>>();
 

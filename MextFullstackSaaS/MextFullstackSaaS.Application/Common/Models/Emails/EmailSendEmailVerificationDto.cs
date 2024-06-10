@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MextFullstackSaaS.Application.Common.Models
+namespace MextFullstackSaaS.Application.Common.Models.Emails
 {
     public class EmailSendEmailVerificationDto
     {
@@ -14,7 +14,7 @@ namespace MextFullstackSaaS.Application.Common.Models
 
         public EmailSendEmailVerificationDto(string? email, string firstName, string token)
         {
-            Email = email;;
+            Email = email; ;
             FirstName = firstName;
             Token = token;
         }

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\email-templates\\userauth-template.html",
+      "PackagePath": "staticwebassets\\email-templates\\userauth-template.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\images\\alperhocalogo.png",
+      "PackagePath": "staticwebassets\\images\\alperhocalogo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MextFullstackSaaS.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MextFullstackSaaS.WebApi.props",
+      "PackagePath": "build\\MextFullstackSaaS.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MextFullstackSaaS.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\MextFullstackSaaS.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MextFullstackSaaS.WebApi.props",
+      "PackagePath": "buildTransitive\\MextFullstackSaaS.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

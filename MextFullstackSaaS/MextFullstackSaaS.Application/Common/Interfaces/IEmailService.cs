@@ -1,4 +1,4 @@
-﻿using MextFullstackSaaS.Application.Common.Models;
+﻿using MextFullstackSaaS.Application.Common.Models.Emails;
 using System;
 using System.Collections.Generic;
 using System.Linq;

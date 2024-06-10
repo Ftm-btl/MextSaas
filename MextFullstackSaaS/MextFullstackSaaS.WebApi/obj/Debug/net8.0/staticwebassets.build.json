@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "kmUBu/knsR9EbUQs8hSArsVx75teISSBKSUpGw/clec=",
+  "Hash": "Yd9r4IuYk+3JCluaaRLDZgGWY2yJzADGDLMRkM3V3ro=",
   "Source": "MextFullstackSaaS.WebApi",
   "BasePath": "_content/MextFullstackSaaS.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MextFullstackSaaS.WebApi\\wwwroot",
+      "Source": "MextFullstackSaaS.WebApi",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\",
+      "BasePath": "_content/MextFullstackSaaS.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\email-templates\\userauth-template.html",
+      "SourceId": "MextFullstackSaaS.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\",
+      "BasePath": "_content/MextFullstackSaaS.WebApi",
+      "RelativePath": "email-templates/userauth-template.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\email-templates\\userauth-template.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\images\\alperhocalogo.png",
+      "SourceId": "MextFullstackSaaS.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\wwwroot\\",
+      "BasePath": "_content/MextFullstackSaaS.WebApi",
+      "RelativePath": "images/alperhocalogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\alperhocalogo.png"
+    }
+  ]
 }
