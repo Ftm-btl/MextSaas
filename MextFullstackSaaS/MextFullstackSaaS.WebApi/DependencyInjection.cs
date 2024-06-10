@@ -1,8 +1,10 @@
 ﻿using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.WebApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Globalization;
 using System.Text;
 
 namespace MextFullstackSaaS.WebApi
@@ -11,6 +13,30 @@ namespace MextFullstackSaaS.WebApi
     {
         public static IServiceCollection AddWebServices(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddLocalization(options => 
+            {
+                options.ResourcesPath = "Resources"; //herhangi bir projede çeviriler-kaynaklar nerede onun yolıu
+            });
+
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                var defaultCulture =new CultureInfo("en-GB"); //var sayılan dil ataması
+
+                var suppotedCultures=new List<CultureInfo> 
+                { 
+                    defaultCulture,
+                    new CultureInfo("tr-TR")  // desteklenen diller
+                };
+
+                options.DefaultRequestCulture = new RequestCulture(defaultCulture); //bana bir dil ayarı gönderilmezse ne dönecek
+
+                options.SupportedCultures = suppotedCultures; //desteklenen diller
+
+                options.SupportedUICultures = suppotedCultures; //desteklenen uı dilleri
+
+                options.ApplyCurrentCultureToResponseHeaders = true; // karşı tarafa hangi dilde dönüş yaptığını belirt
+            });
+
             services.AddEndpointsApiExplorer();
 
             services.AddSwaggerGen(setupAction =>

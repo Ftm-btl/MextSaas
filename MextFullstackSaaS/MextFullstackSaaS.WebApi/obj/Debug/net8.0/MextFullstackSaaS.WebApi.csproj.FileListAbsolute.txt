@@ -279,3 +279,6 @@ C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebA
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\en-GB\MextFullstackSaaS.Application.resources.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WebApi\bin\Debug\net8.0\tr-TR\MextFullstackSaaS.Application.resources.dll

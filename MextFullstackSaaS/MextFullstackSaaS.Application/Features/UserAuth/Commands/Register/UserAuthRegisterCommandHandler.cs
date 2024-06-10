@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Application.Common.Models;
+using MextFullstackSaaS.Application.Common.Translations;
+using Microsoft.Extensions.Localization;
 
 namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
 {
@@ -9,12 +11,14 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
         private readonly IIdentityService _identityService;
         private readonly IJwtService _jwtService;
         private readonly IEmailService _emailService;
+        private readonly IStringLocalizer<CommonTranslations> _localizer;
 
-        public UserAuthRegisterCommandHandler(IIdentityService identityService, IJwtService jwtService, IEmailService emailService)
+        public UserAuthRegisterCommandHandler(IIdentityService identityService, IJwtService jwtService, IEmailService emailService, IStringLocalizer<CommonTranslations> localizer)
         {
             _identityService = identityService;
             _jwtService = jwtService;
             _emailService = emailService;
+            _localizer = localizer;
         }
 
         public async Task<ResponseDto<JwtDto>> Handle(UserAuthRegisterCommand request, CancellationToken cancellationToken)
@@ -27,7 +31,7 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
 
             await Task.WhenAll(jwtDtoTask, sendEmailTask);
 
-            return new ResponseDto<JwtDto>(await jwtDtoTask, "Welcome to our application!");
+            return new ResponseDto<JwtDto>(await jwtDtoTask, _localizer[CommonTranslationKeys.UserAuthRegisterSucceededMessage]);
         }
 
         private Task SendEmailVerificationAsync(string email, string firstName, string emailToken, CancellationToken cancellationToken)

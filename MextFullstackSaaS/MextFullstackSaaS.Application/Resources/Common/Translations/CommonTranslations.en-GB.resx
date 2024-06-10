@@ -123,4 +123,13 @@
   <data name="GeneralServerExceptionMessage" xml:space="preserve">
     <value>An unexpected error was occurred.</value>
   </data>
+  <data name="UserAuthRegisterSucceededMessage" xml:space="preserve">
+    <value>Welcome to our application!</value>
+  </data>
+  <data name="UserAuthLoginSucceededMessage" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UserAuthVerifyEmailSucceededMessage" xml:space="preserve">
+    <value>Your {0} e-mail address verified successfully. </value>
+  </data>
 </root>

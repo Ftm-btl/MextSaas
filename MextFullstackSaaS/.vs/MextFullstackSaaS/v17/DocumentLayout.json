@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\userauth\\commands\\verifyemail\\userauthverifyemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\userauth\\commands\\verifyemail\\userauthverifyemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\translations\\commontranslationkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\translations\\commontranslationkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\userauth\\commands\\register\\userauthregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\userauth\\commands\\register\\userauthregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAuthVerifyEmailCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommandHandler.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommandHandler.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAADgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:35:30.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAuthRegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:10:13.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Program.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WebApi\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:49.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:54:13.211Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,27 +100,27 @@
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Translations\\CommonTranslationKeys.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Translations\\CommonTranslationKeys.cs",
               "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Translations\\CommonTranslationKeys.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T13:53:49.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GlobalExceptionFilter.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Filters\\GlobalExceptionFilter.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Filters\\GlobalExceptionFilter.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Filters\\GlobalExceptionFilter.cs",
               "RelativeToolTip": "MextFullstackSaaS.WebApi\\Filters\\GlobalExceptionFilter.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwEMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T13:44:31.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\OrdersController.cs",
