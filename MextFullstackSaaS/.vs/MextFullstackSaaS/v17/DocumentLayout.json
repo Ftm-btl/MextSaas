@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\services\\resendemailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\services\\resendemailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -35,6 +63,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Program.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WebApi\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswDEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:33:51.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WebApi\\DependencyInjection.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:32:11.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Program.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Program.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:09:48.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T11:07:04.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterPage.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\RegisterPage.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\RegisterPage.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\RegisterPage.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\RegisterPage.razor",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAswJUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T10:48:02.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T10:44:41.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAkwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T10:32:31.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\wwwroot\\index.html",
@@ -42,25 +161,24 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\wwwroot\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-11T07:44:46.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T07:44:46.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Styles\\app.css",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Styles\\app.css",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Styles\\app.css",
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Styles\\app.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-11T07:39:08.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "tailwind.config.js",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\tailwind.config.js",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\tailwind.config.js",
@@ -68,12 +186,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\tailwind.config.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-11T07:37:19.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T07:37:19.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "CommonTranslationKeys.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Translations\\CommonTranslationKeys.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Translations\\CommonTranslationKeys.cs",
@@ -81,18 +198,17 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Translations\\CommonTranslationKeys.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:21:11.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T07:21:11.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ResendEmailManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\ResendEmailManager.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\ResendEmailManager.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\ResendEmailManager.cs",
               "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\ResendEmailManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAB8AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T07:17:51.216Z",
               "EditorCaption": ""
