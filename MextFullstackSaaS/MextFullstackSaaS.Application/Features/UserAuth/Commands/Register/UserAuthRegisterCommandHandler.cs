@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Application.Common.Models;
+using MextFullstackSaaS.Application.Common.Models.Emails;
 using MextFullstackSaaS.Application.Common.Translations;
 using Microsoft.Extensions.Localization;
 
@@ -36,7 +37,7 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
 
         private Task SendEmailVerificationAsync(string email, string firstName, string emailToken, CancellationToken cancellationToken)
         {
-            var emailDto = new EmailSendEmailVerificationDto(email, firstName, emailToken);
+            var emailDto = new SendEmailVerificationDto(email, firstName, emailToken);
 
             return _emailService.SendEmailVerificationAsync(emailDto, cancellationToken);
         }

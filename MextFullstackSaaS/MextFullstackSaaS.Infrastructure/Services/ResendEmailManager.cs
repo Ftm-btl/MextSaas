@@ -1,5 +1,7 @@
 ﻿using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Application.Common.Models.Emails;
+using MextFullstackSaaS.Application.Common.Translations;
+using Microsoft.Extensions.Localization;
 using Resend;
 using System.Web;
 using File = System.IO.File;
@@ -10,15 +12,17 @@ namespace MextFullstackSaaS.Infrastructure.Services
     {
         private readonly IResend _resend;
         private readonly IRootPathService _rootPathService;
+        private readonly IStringLocalizer<CommonTranslations> _localizer;
 
-        public ResendEmailManager(IResend resend, IRootPathService rootPathService)
+        public ResendEmailManager(IResend resend, IRootPathService rootPathService, IStringLocalizer<CommonTranslations> localizer)
         {
             _resend = resend;
             _rootPathService = rootPathService;
+            _localizer = localizer;
         }
 
         private const string ApiBaseUrl = "https://localhost:7281/api/";
-        public async Task SendEmailVerificationAsync(EmailSendEmailVerificationDto emailDto, CancellationToken cancellationToken)
+        public async Task SendEmailVerificationAsync(SendEmailVerificationDto emailDto, CancellationToken cancellationToken)
         {
             var encodedEmail=HttpUtility.UrlEncode(emailDto.Email);
 
@@ -31,14 +35,14 @@ namespace MextFullstackSaaS.Infrastructure.Services
 
             htmlContent = htmlContent.Replace("{{{link}}}", link);
 
-            htmlContent = htmlContent.Replace("{{{Subject}}}", "Email Verification");
+            htmlContent = htmlContent.Replace("{{{Subject}}}", _localizer[CommonTranslationKeys.EmailVerificationSubject]);
 
-            htmlContent = htmlContent.Replace("{{{content}}}", "Kindly click the button bellow to confirm your email address.");
+            htmlContent = htmlContent.Replace("{{{content}}}", _localizer[CommonTranslationKeys.EmailVerificationContent]);
 
-            htmlContent = htmlContent.Replace("{{{buttonText}}}", "Verify Email");
+            htmlContent = htmlContent.Replace("{{{buttonText}}}", _localizer[CommonTranslationKeys.EmailVerificationButtonText]);
 
 
-            await SendEmailAsync(new EmailSendDto(emailDto.Email, "Forgot Password", htmlContent), cancellationToken);
+            await SendEmailAsync(new EmailSendDto(emailDto.Email, _localizer[CommonTranslationKeys.EmailVerificationSubject], htmlContent), cancellationToken);
         }
 
         public async Task SendPasswordResetLinkAsync(string email, string token, CancellationToken cancellationToken)

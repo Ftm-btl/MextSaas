@@ -109,4 +109,13 @@
   <data name="UserAuthVerifyEmailSucceededMessage" xml:space="preserve">
     <value>{0} e-posta adresiniz başarıyla doğrulanmıştır.</value>
   </data>
+  <data name="EmailVerificationSubject" xml:space="preserve">
+    <value>E-Posta doğrulama</value>
+  </data>
+  <data name="EmailVerificationButtonText" xml:space="preserve">
+    <value>E-Postayı Doğrula</value>
+  </data>
+  <data name="EmailVerificationContent" xml:space="preserve">
+    <value> Lütfen e-posta adresinizi doğrulamak için aşağıdaki butona tıklayın.</value>
+  </data>
 </root>

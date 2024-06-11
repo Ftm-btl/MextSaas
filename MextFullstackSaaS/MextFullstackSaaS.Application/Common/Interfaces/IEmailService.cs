@@ -9,7 +9,7 @@ namespace MextFullstackSaaS.Application.Common.Interfaces
 {
     public interface IEmailService
     {
-        Task SendEmailVerificationAsync(EmailSendEmailVerificationDto emailDto, CancellationToken cancellationToken);
+        Task SendEmailVerificationAsync(SendEmailVerificationDto emailDto, CancellationToken cancellationToken);
         Task SendPasswordResetLinkAsync(string email, string token, CancellationToken cancellationToken);
         Task ResetPasswordAsync(string email, string token,string newPassword, CancellationToken cancellationToken);
     }

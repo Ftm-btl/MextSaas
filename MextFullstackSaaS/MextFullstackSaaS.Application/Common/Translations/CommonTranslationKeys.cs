@@ -15,5 +15,9 @@ namespace MextFullstackSaaS.Application.Common.Translations
         //UserAuth Key
         public static string UserAuthRegisterSucceededMessage => nameof(UserAuthRegisterSucceededMessage);
         public static string UserAuthVerifyEmailSucceededMessage => nameof(UserAuthVerifyEmailSucceededMessage);
+
+        public static string EmailVerificationSubject => nameof(EmailVerificationSubject);
+        public static string EmailVerificationButtonText => nameof(EmailVerificationButtonText);
+        public static string EmailVerificationContent => nameof(EmailVerificationContent);
     }
 }
