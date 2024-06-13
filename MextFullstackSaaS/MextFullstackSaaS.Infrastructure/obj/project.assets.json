@@ -1432,7 +1432,8 @@
           "FluentValidation.DependencyInjectionExtensions": "11.9.1",
           "MextFullstackSaaS.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.Extensions.Localization.Abstractions": "8.0.6"
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.6",
+          "System.IdentityModel.Tokens.Jwt": "7.5.2"
         },
         "compile": {
           "bin/placeholder/MextFullstackSaaS.Application.dll": {}

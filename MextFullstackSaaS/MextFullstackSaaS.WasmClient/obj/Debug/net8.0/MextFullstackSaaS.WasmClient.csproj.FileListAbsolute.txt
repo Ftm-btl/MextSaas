@@ -1125,3 +1125,13 @@ C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.Wasm
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\compressed\2unq4g91gu.gz
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\compressed\gnce5bksch.gz
 C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\compressed\ui6vzg4a5j.gz
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\bin\Debug\net8.0\wwwroot\_framework\Blazored.Toast.wasm
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm.gz
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\bin\Debug\net8.0\wwwroot\_framework\Blazored.Toast.wasm.gz
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\bin\Debug\net8.0\Blazored.LocalStorage.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\bin\Debug\net8.0\Blazored.Toast.dll
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\webcil\Blazored.LocalStorage.wasm
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\webcil\Blazored.Toast.wasm
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\compressed\2utyszx38l.gz
+C:\Users\user\Documents\GitHub\MextSaas\MextFullstackSaaS\MextFullstackSaaS.WasmClient\obj\Debug\net8.0\compressed\fjo379fsai.gz

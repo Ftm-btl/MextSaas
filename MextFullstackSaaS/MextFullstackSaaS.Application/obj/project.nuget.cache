@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9jD8FMlb2Mk=",
+  "dgSpecHash": "F2+Qe4mF8/0=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,12 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.5.2\\microsoft.identitymodel.abstractions.7.5.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.2\\microsoft.identitymodel.jsonwebtokens.7.5.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.2\\microsoft.identitymodel.logging.7.5.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.2\\microsoft.identitymodel.tokens.7.5.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.2\\system.identitymodel.tokens.jwt.7.5.2.nupkg.sha512"
   ],
   "logs": []
 }
