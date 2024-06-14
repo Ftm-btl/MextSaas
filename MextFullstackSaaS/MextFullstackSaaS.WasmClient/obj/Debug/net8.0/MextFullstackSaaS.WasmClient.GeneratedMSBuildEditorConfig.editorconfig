@@ -30,8 +30,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFcnJvckxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Icons/OiHardIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uc1xPaUhhcmRJY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Icons/OiHomeIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uc1xPaUhvbWVJY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Icons/OiPikachuIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uc1xPaVBpa2FjaHVJY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Loading.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2FkaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Pages/CommunityPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbXVuaXR5UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Pages/GeneratePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJhdGVQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Pages/Home.razor]

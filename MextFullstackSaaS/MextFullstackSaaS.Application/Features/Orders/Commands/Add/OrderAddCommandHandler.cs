@@ -1,7 +1,10 @@
 ﻿using MediatR;
+using MextFullstackSaaS.Application.Common.Helpers;
 using MextFullstackSaaS.Application.Common.Interfaces;
 using MextFullstackSaaS.Application.Common.Models;
 using MextFullstackSaaS.Application.Common.Models.OpenAI;
+using MextFullstackSaaS.Application.Features.Orders.Queries.GetAll;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace MextFullstackSaaS.Application.Features.Orders.Commands.Add
 {
@@ -10,13 +13,14 @@ namespace MextFullstackSaaS.Application.Features.Orders.Commands.Add
         private readonly IApplicationDbContext _dbContext;
         private readonly ICurrentUserService _currentUserService;
         private readonly IOpenAIService _openAIService;
+        private readonly IMemoryCache _memoryCache;
 
-        public OrderAddCommandHandler(IApplicationDbContext dbContext, ICurrentUserService currentUserService, IOpenAIService openAIService)
+        public OrderAddCommandHandler(IApplicationDbContext dbContext, ICurrentUserService currentUserService, IOpenAIService openAIService, IMemoryCache memoryCache)
         {
             _dbContext = dbContext;
             _currentUserService = currentUserService;
             _openAIService = openAIService;
-
+            _memoryCache = memoryCache;
         }
 
         public async Task<ResponseDto<Guid>> Handle(OrderAddCommand request, CancellationToken cancellationToken)
@@ -32,6 +36,13 @@ namespace MextFullstackSaaS.Application.Features.Orders.Commands.Add
             _dbContext.Orders.Add(order);
 
             await _dbContext.SaveChangesAsync(cancellationToken);
+
+            if (_memoryCache.TryGetValue(MemoryCacheHelper.GetOrdersGetAllKey(_currentUserService.UserId), out List<OrderGetAllDto> orders))
+            {
+                orders.Add(OrderGetAllDto.FromOrder(order));
+
+                _memoryCache.Set(MemoryCacheHelper.GetOrdersGetAllKey(_currentUserService.UserId),orders,MemoryCacheHelper.GetMemoryCacheEntryOptions());   
+            }
 
             return new ResponseDto<Guid>(order.Id,"Your order completed successfully.");
         }
