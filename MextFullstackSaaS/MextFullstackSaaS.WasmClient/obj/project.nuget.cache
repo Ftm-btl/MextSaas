@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "thMjfx/lnX4=",
+  "dgSpecHash": "Bm/YavzTSxs=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj",
   "expectedPackageFiles": [
@@ -18,9 +18,16 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.5\\microsoft.aspnetcore.components.web.8.0.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.5\\microsoft.aspnetcore.components.webassembly.8.0.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\8.0.5\\microsoft.aspnetcore.components.webassembly.devserver.8.0.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.6\\microsoft.aspnetcore.connections.abstractions.8.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.5\\microsoft.aspnetcore.cryptography.internal.8.0.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.5\\microsoft.aspnetcore.cryptography.keyderivation.8.0.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\8.0.6\\microsoft.aspnetcore.http.connections.client.8.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\8.0.6\\microsoft.aspnetcore.http.connections.common.8.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.6\\microsoft.aspnetcore.metadata.8.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\8.0.6\\microsoft.aspnetcore.signalr.client.8.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\8.0.6\\microsoft.aspnetcore.signalr.client.core.8.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.6\\microsoft.aspnetcore.signalr.common.8.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\8.0.6\\microsoft.aspnetcore.signalr.protocols.json.8.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
@@ -33,6 +40,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0\\microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.features\\8.0.6\\microsoft.extensions.features.8.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
@@ -55,6 +63,7 @@
     "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.5.nupkg.sha512"
   ],
   "logs": []

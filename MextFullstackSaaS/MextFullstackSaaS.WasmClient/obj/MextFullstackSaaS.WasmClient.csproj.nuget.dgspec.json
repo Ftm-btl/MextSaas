@@ -225,6 +225,10 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",

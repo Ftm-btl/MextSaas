@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MextFullstackSaaS.WasmClient",
   "resources": {
-    "hash": "sha256-MALxWqpOZ1tKV0BJQXwb6iknfTquQ9dG+XcA+vbjZZ8=",
+    "hash": "sha256-gAwX9ZGVAWMNjwyeEotF6jJuStkjDTB7R5xCHNfu5Bs=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.wzrvnrj7no.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -29,9 +29,16 @@
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-CMRkrzCDzgX1XUEE5PWWJ6Q9JsVt/StuycyytVANvQ8=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-supFGv3TIB/pt7VOZOt4lPKVw0aeRxy3rAjLsoVD1EA=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-xiTZO998vbw5J8+g35bYDWWP7EvrRjIF8D2u5ttIRAc=",
+      "Microsoft.AspNetCore.Connections.Abstractions.wasm": "sha256-yxsKzR+RK7gZOzSAs/+ejuMWpkrsYflKWOWsUXlKkA8=",
       "Microsoft.AspNetCore.Cryptography.Internal.wasm": "sha256-4+iXKLsR2B1JiHADO/Z2xrAyGF/s7abmzj16NU2n8ug=",
       "Microsoft.AspNetCore.Cryptography.KeyDerivation.wasm": "sha256-xlegti0wBBj643DHuN8B0EbzyA0oqmFr5hbDpv35Wjc=",
+      "Microsoft.AspNetCore.Http.Connections.Client.wasm": "sha256-NkUoHjTRDOFxXcyiskgTU843qZ8Hv8Sy4TpwluuyMvM=",
+      "Microsoft.AspNetCore.Http.Connections.Common.wasm": "sha256-UwM4iJRBeHMU9KBLU9bT9YOnkjkDbhHjFWEMRWsZVYE=",
       "Microsoft.AspNetCore.Metadata.wasm": "sha256-M6d6kRld7okbnIpnX8hLjwBfs/aIXl7ubpmAdEmiysE=",
+      "Microsoft.AspNetCore.SignalR.Client.wasm": "sha256-+bj543bcirOEg0wmELchDofhsZ5dX5sDjssu2H3zmxc=",
+      "Microsoft.AspNetCore.SignalR.Client.Core.wasm": "sha256-NvJSk3jWkoUUxuAqLMc8yHC1C+8MTaRNl5BHI63A13s=",
+      "Microsoft.AspNetCore.SignalR.Common.wasm": "sha256-tIeZFMUxd00R4u0r9vkfN4+tMUhAKzQ3oVF8BJUqD/s=",
+      "Microsoft.AspNetCore.SignalR.Protocols.Json.wasm": "sha256-s5nVjiNp0b2yoYw1XKzPDXMOGrGJEMZtRn4BqFqUh3k=",
       "Microsoft.EntityFrameworkCore.wasm": "sha256-10cKLBuiV2H4bX5MOgD5gsjnyr9gi+WOr7/Ku2NhxuY=",
       "Microsoft.EntityFrameworkCore.Abstractions.wasm": "sha256-/HrAWPesEQm+mGXv8ZIw+bRqqK0yjMIWdTivoz79X1E=",
       "Microsoft.Extensions.Caching.Abstractions.wasm": "sha256-ygxx8pKlN4YllvAX2HADU+dKWSOZRMNfSP4nHkPMH+8=",
@@ -43,6 +50,7 @@
       "Microsoft.Extensions.Configuration.Json.wasm": "sha256-ViitoeUHw71Xhs0JJ88lGca05eRKDi+p+NyaYc6cRIQ=",
       "Microsoft.Extensions.DependencyInjection.wasm": "sha256-NrPYML1ZOnKmz2Y+n4q5EFp+e4a6g47+gH22VofJd2k=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.wasm": "sha256-4m5J6D1UjtBYOyimRA7fLpV89WdlUi2OueAnc4PZQSk=",
+      "Microsoft.Extensions.Features.wasm": "sha256-A1Z+viMF4cMV0rYUx7Rvoq/Mf6wPmZJTQFBO0kiseBw=",
       "Microsoft.Extensions.FileProviders.Abstractions.wasm": "sha256-IUopixuV8E09mP+TIgRp/lXEbeacXbUTW7cu0v5B9Tc=",
       "Microsoft.Extensions.FileProviders.Physical.wasm": "sha256-MS+zB0xkKhKk/QdE32ZwKtdlrLMLI/y2NAKPUWhcBVg=",
       "Microsoft.Extensions.FileSystemGlobbing.wasm": "sha256-AnWUKd0qJ8ZNKkRC0AFK2cjjszB7reXiP+bXdIi8bic=",
@@ -229,21 +237,21 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "MextFullstackSaaS.Application.wasm": "sha256-IbT9gnrOF52Cz5DK8XXrjLQndhhCFerHlBnACQM82ng=",
-      "MextFullstackSaaS.Domain.wasm": "sha256-83ebHXR1cgowZ2ZCMs9Tjp/JfxLRMNcbYulxcLgvEiQ=",
-      "MextFullstackSaaS.WasmClient.wasm": "sha256-bUZSj/3n56zz8ce69ha20MeLfLzt0PmaZMumU8Wb3Ck="
+      "MextFullstackSaaS.Application.wasm": "sha256-P+fEKOrc6u8nKkymbHTjIpW/cz2A8ETzQKAgl/KiiEE=",
+      "MextFullstackSaaS.Domain.wasm": "sha256-bLV5SxynjKUM8s6egRgp8cnOZ6bkTK8SSsIsPD9vT4U=",
+      "MextFullstackSaaS.WasmClient.wasm": "sha256-362BOZV0tFqC1bB++iffU2Ja5vXt1RugH1fj8QyHY0A="
     },
     "pdb": {
-      "MextFullstackSaaS.Application.pdb": "sha256-bM5P3UioJlVwpO3TAhfovqfyYY16o7J73GU0pB+qIEo=",
-      "MextFullstackSaaS.Domain.pdb": "sha256-Y/2tl16Q8f+ASKzpGyzrIWyIVgc1Cn8pqPzkNFfuM90=",
-      "MextFullstackSaaS.WasmClient.pdb": "sha256-h6/J6O9pM8sIjcqTi0Dy27+qQKHCryzEnkcfO7bV47c="
+      "MextFullstackSaaS.Application.pdb": "sha256-BV+3z0+/HlgTr7KHwCWBOFpQtqDFMDnsPLNGSHu6OyE=",
+      "MextFullstackSaaS.Domain.pdb": "sha256-X0/2M+HBfHd2D8/dwd8BCXHgfrARovHCa6qubNwT2yU=",
+      "MextFullstackSaaS.WasmClient.pdb": "sha256-V9KV1RpaJzW/jtpcdY/TcFFwpbKBUIDLX08SO6s2DPA="
     },
     "satelliteResources": {
       "en-GB": {
-        "MextFullstackSaaS.Application.resources.wasm": "sha256-5GL6WmC/4mhTJm0dIJlp5TYGbbbgoYUpnpHf7cJXUVc="
+        "MextFullstackSaaS.Application.resources.wasm": "sha256-Pv6w3K1rAXO9Ny8R/E5Btac2+zXhdqY9Ky+G6lzIVEM="
       },
       "tr-TR": {
-        "MextFullstackSaaS.Application.resources.wasm": "sha256-Cw8o2UjI6axbPOoCtMcQskTL6qEG9mvzZamHwkWYimw="
+        "MextFullstackSaaS.Application.resources.wasm": "sha256-HrojwapyEnmIXcJIMKpEGv/hMQcSY9UG5JkWnXcwyl0="
       }
     }
   },

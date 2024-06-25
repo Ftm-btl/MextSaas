@@ -11,8 +11,11 @@ namespace MextFullstackSaaS.WebApi
 {
     public static class DependencyInjection
     {
+
         public static IServiceCollection AddWebServices(this IServiceCollection services, IConfiguration configuration)
         {
+            //SingalR
+            services.AddSignalR();
 
             services.AddMemoryCache();
 
