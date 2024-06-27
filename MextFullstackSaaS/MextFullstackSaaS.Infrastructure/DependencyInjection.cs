@@ -26,6 +26,7 @@ namespace MextFullstackSaaS.Infrastructure
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.Configure<JwtSettings>(jwtSettings => configuration.GetSection("JwtSettings").Bind(jwtSettings));
+            services.Configure<GoogleSettings>(gooleSettings => configuration.GetSection("GoogleSettings").Bind(gooleSettings));
 
             services.AddIdentity<User, Role>(options =>
             {
