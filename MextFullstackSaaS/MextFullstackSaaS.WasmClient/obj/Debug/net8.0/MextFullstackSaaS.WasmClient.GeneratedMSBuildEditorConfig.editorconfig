@@ -30,8 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFcnJvckxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Icons/OiHardIcon.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uc1xPaUhhcmRJY29uLnJhem9y
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Icons/OiHaertIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uc1xPaUhhZXJ0SWNvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/Icons/OiHomeIcon.razor]
@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Components/NavBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Layout/AuthLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEF1dGhMYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Documents/GitHub/MextSaas/MextFullstackSaaS/MextFullstackSaaS.WasmClient/Pages/CommunityPage.razor]

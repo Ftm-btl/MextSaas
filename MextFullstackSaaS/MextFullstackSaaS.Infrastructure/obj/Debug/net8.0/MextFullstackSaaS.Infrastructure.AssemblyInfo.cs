@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MextFullstackSaaS.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0bcf902ce9e42d1a04de73f4f71fb894b6b7b2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e73a7bddfdb305dcac0d96385534339fcc4f929")]
 [assembly: System.Reflection.AssemblyProductAttribute("MextFullstackSaaS.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MextFullstackSaaS.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

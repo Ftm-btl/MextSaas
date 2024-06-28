@@ -10,8 +10,7 @@ using MextFullstackSaaS.Application.Features.UserAuth.Commands.VerifyEmail;
 using MextFullstackSaaS.Domain.Settings;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
+using MextFullstackSaaS.Application.Features.UserAuth.Commands.SocialLogin;
 
 namespace MextFullstackSaaS.WebApi.Controllers
 {
@@ -63,11 +62,24 @@ namespace MextFullstackSaaS.WebApi.Controllers
 
             var payload = await GoogleJsonWebSignature.ValidateAsync(tokenResponse.IdToken);
 
-            var email = payload.Email;
-            var firstName = payload.GivenName;
-            var lastName = payload.FamilyName;
+            var command =
+                new UserAuthSocialLoginCommand(payload.Email, payload.GivenName, payload.FamilyName);
 
+            var responseDto= await _mediatr.Send(command, cancellationToken);
 
+            var queyParams = new Dictionary<string, string>()
+            {
+                {"access_token", responseDto.Data.Token },
+                {"expiry_date", responseDto.Data.Expires.ToBinary().ToString() },
+            };
+
+            var formContent=new FormUrlEncodedContent(queyParams);
+
+            var query=await formContent.ReadAsStringAsync(cancellationToken);
+
+            var redirectUrl = $"http://localhost:5180/social-login?{query}";
+
+            return Redirect(redirectUrl);
 
             //var jwtDto =
             //    await _authenticationService.SocialLoginAsync(userEmail, firstName, lastName, cancellationToken);
@@ -84,7 +96,7 @@ namespace MextFullstackSaaS.WebApi.Controllers
 
             //var redirectUrl = $"http://127.0.0.1:5173/social-login?{query}";
 
-            return Redirect($" http://localhost:5180/social-login?email={email}&firstName={firstName}&lastName={lastName}");
+            
         }
 
 

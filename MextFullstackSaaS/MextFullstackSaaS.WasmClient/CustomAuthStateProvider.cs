@@ -1,9 +1,9 @@
 ﻿using System.Net.Http.Headers;
 using System.Security.Claims;
 using Blazored.LocalStorage;
+using MextFullstackSaaS.Application.Common.Helpers;
 using MextFullstackSaaS.Application.Common.Models;
 using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.Extensions.Logging.Abstractions;
 
 namespace MextFullstackSaaS.WasmClient
 {
@@ -11,6 +11,7 @@ namespace MextFullstackSaaS.WasmClient
     {
         private readonly ILocalStorageService _localStorageService;
         private readonly HttpClient _httpClient;
+
         public CustomAuthStateProvider(ILocalStorageService localStorageService, HttpClient httpClient)
         {
             _localStorageService = localStorageService;
@@ -23,22 +24,28 @@ namespace MextFullstackSaaS.WasmClient
 
             if (jwtDto is not null)
             {
-                var claims = JwtHelper
-                    .ReadClaimsFromToken(jwtDto.Token)
-                    .Append(new Claim("Token", jwtDto.Token))
-                    .Append(new Claim("Name", jwtDto.Token));
+                if (jwtDto.Expires < DateTime.UtcNow)
+                {
+                    await _localStorageService.RemoveItemAsync("cto");
+                }
+                else
+                {
+                    var claims = JwtHelper
+                        .ReadClaimsFromToken(jwtDto.Token)
+                        .Append(new Claim("Token", jwtDto.Token));
 
-                var identity = new ClaimsIdentity(claims, "jwt");
+                    var identity = new ClaimsIdentity(claims, "jwt");
 
-                var user = new ClaimsPrincipal(identity);
+                    var user = new ClaimsPrincipal(identity);
 
-                var state = new AuthenticationState(user);
+                    var state = new AuthenticationState(user);
 
-                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtDto.Token);
+                    _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtDto.Token);
 
-                NotifyAuthenticationStateChanged(Task.FromResult(state));
+                    NotifyAuthenticationStateChanged(Task.FromResult(state));
 
-                return state;
+                    return state;
+                }
             }
 
             _httpClient.DefaultRequestHeaders.Authorization = null;

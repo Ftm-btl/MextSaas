@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\generatepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\generatepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\services\\openaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\services\\openaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\layout\\authlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\layout\\authlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\socialloginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\socialloginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.domain\\settings\\googlesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|solutionrelative:mextfullstacksaas.domain\\settings\\googlesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,67 +42,93 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SocialLoginPage.razor",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
-              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:15:44.523Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\appsettings.json",
+              "RelativeToolTip": "MextFullstackSaaS.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-28T09:06:34.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPage.razor",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
-              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\LoginPage.razor",
-              "ViewState": "AQIAAKgAAAAAAAAAAAAAALwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T08:06:13.925Z",
+              "DocumentIndex": 1,
+              "Title": "OpenAIManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:57:59.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersAuthController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "RelativeToolTip": "MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAwwFgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:46:30.939Z",
+              "Title": "GeneratePage.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
+              "ViewState": "AQIAABoBAAAAAAAAAAAAAC8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T08:51:00.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAB9AAAA",
+              "Title": "CustomAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\CustomAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\CustomAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\CustomAuthStateProvider.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\CustomAuthStateProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:35:17.69Z",
+              "WhenOpened": "2024-06-28T08:45:02.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GoogleSettings.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Settings\\GoogleSettings.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Domain\\Settings\\GoogleSettings.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Settings\\GoogleSettings.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Domain\\Settings\\GoogleSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Title": "AuthLayout.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Layout\\AuthLayout.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Layout\\AuthLayout.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Layout\\AuthLayout.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Layout\\AuthLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T08:13:30.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Helpers\\JwtHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:34:02.953Z",
+              "WhenOpened": "2024-06-28T08:07:06.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocialLoginPage.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\SocialLoginPage.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T09:15:44.523Z",
               "EditorCaption": ""
             }
           ]

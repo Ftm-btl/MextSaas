@@ -5,10 +5,19 @@ public static class JwtHelper
 {
     public static IEnumerable<Claim> ReadClaimsFromToken(string accessToken)
     {
-        var tokenHandler = new JwtSecurityTokenHandler();
+        try
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
 
-        var jwtToken = tokenHandler.ReadJwtToken(accessToken);
+            var jwtToken = tokenHandler.ReadJwtToken(accessToken);
 
-        return jwtToken.Claims;
+            return jwtToken.Claims;
+        }
+        catch (Exception e) 
+        {
+            return Enumerable.Empty<Claim>();   
+        }
+
+        
     }
 }

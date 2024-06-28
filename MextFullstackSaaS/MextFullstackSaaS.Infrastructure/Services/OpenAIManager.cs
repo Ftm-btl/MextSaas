@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MextFullstackSaaS.Domain.Enums;
+using OpenAI.ObjectModels.ResponseModels.ImageResponseModel;
 
 namespace MextFullstackSaaS.Infrastructure.Services
 {
@@ -23,18 +24,44 @@ namespace MextFullstackSaaS.Infrastructure.Services
 
         public async Task<List<string>> DAllECreateIconAsync(DallECreateIconRequestDto requestDto, CancellationToken cancellationToken)
         {
+            if (requestDto.Model == AIModelType.DallE3)
+            {
+                List<Task<ImageCreateResponse>> openAITasks = new();
+
+                for (int i = 0; i < requestDto.Quantity; i++)
+                {
+                    openAITasks.Add(_openAIService.Image.CreateImage(new ImageCreateRequest
+                    {
+                        Prompt = CreateIconPrompt(requestDto),
+                        N = 1,
+                        Size = GetSize(requestDto.Size),
+                        ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Url,
+                        User = _currentUserService.UserId.ToString(),
+                        Model = Models.Dall_e_3
+                    }, cancellationToken));
+                }
+
+                await Task.WhenAll(openAITasks);
+
+                var responses = await Task.WhenAll(openAITasks);
+
+                return responses
+                    .SelectMany(response => response.Results.Select(result => result.Url))
+                    .ToList();
+            }
+
+
             var imageResult = await _openAIService.Image.CreateImage(new ImageCreateRequest
             {
                 Prompt = CreateIconPrompt(requestDto),
-                N = requestDto.Model==AIModelType.DallE3 ? 1 : requestDto.Quantity,
+                N = requestDto.Quantity,
                 Size = GetSize(requestDto.Size),
                 ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Url,
                 User = _currentUserService.UserId.ToString(),
-                Model=Models.Dall_e_3
-            },cancellationToken);
-            // TODO: Add error handling / If the model is Dall-e-3, Image size must be at least 1024*1024
-
-            if (!imageResult.Successful) 
+                Model = Models.Dall_e_3
+            }, cancellationToken);
+            // TODO: Add error handling / If the model is Dall-e-3, Image size must be at least 1024x1024
+            if (!imageResult.Successful)
             {
 
             }
@@ -43,8 +70,8 @@ namespace MextFullstackSaaS.Infrastructure.Services
                 .Results
                 .Select(x => x.Url)
                 .ToList();
-        }
 
+        }
         private string GetSize(IconSize size)
         {
             return size switch
