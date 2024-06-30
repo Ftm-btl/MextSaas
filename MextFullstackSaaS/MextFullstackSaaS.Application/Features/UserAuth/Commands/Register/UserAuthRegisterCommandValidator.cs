@@ -16,8 +16,9 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
 
 
             RuleFor(x => x.Email)
-                .NotEmpty().WithMessage("Email is required")
-                .EmailAddress().WithMessage("Email is not valid");
+            .NotEmpty().WithMessage("Email is required")
+            .Must(IsEmail).WithMessage("Email is not valid");
+            // .EmailAddress().WithMessage("Email is not valid");
 
             RuleFor(x => x.Password)
                 .NotEmpty().WithMessage("Password is required")

@@ -22,7 +22,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
         }
 
         private const string WebAppBaseUrl = " http://localhost:5180/";
-        public async Task SendEmailVerificationAsync(SendEmailVerificationDto emailDto, CancellationToken cancellationToken)
+        public async Task SendEmailVerificationAsync(EmailSendEmailVerificationDto emailDto, CancellationToken cancellationToken)
         {
             var encodedEmail=HttpUtility.UrlEncode(emailDto.Email);
 

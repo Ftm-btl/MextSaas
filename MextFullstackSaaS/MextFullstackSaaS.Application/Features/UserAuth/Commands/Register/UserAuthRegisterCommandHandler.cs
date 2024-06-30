@@ -35,9 +35,10 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Register
             return new ResponseDto<JwtDto>(await jwtDtoTask, _localizer[CommonTranslationKeys.UserAuthRegisterSucceededMessage]);
         }
 
+
         private Task SendEmailVerificationAsync(string email, string firstName, string emailToken, CancellationToken cancellationToken)
         {
-            var emailDto = new SendEmailVerificationDto(email, firstName, emailToken);
+            var emailDto = new EmailSendEmailVerificationDto(email, firstName, emailToken);
 
             return _emailService.SendEmailVerificationAsync(emailDto, cancellationToken);
         }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MextFullstackSaaS.Application.Common.Models.Emails
+﻿namespace MextFullstackSaaS.Application.Common.Models.Emails
 {
     public class EmailSendDto
     {
@@ -12,12 +6,16 @@ namespace MextFullstackSaaS.Application.Common.Models.Emails
         public List<string> Addresses { get; set; }
         public string HtmlContent { get; set; }
 
-        public EmailSendDto(string email,string subject,string htmlBody) 
+
+        public EmailSendDto(string email, string subject, string htmlBody)
         {
-            Subject=subject;
-            HtmlContent=htmlBody;
+            Subject = subject;
+
             Addresses = new() { email };
+
+            HtmlContent = htmlBody;
         }
+
         public EmailSendDto(List<string> emails, string subject, string htmlBody)
         {
             Subject = subject;
@@ -26,7 +24,5 @@ namespace MextFullstackSaaS.Application.Common.Models.Emails
 
             HtmlContent = htmlBody;
         }
-
-
     }
 }

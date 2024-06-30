@@ -54,17 +54,17 @@
                         <div class=" flex space-x-4 flex-wrap ">
                             <button @onclick="() => SelectColorOption(ColorOption.Predefined)"
                                     class="border-b-2 pb-2 text-gray-200 hover:border-white"
-                                    style="opacity: @(selectedColorOption == ColorOption.Predefined ? 1 : 0.5)">
+                                    style="opacity: @(selectedColorOption == ColorOption.Predefined ? "1" : "0.5")">
                                 Predefined
                             </button>
                             <button @onclick="() => SelectColorOption(ColorOption.Picker)"
                                     class="border-b-2 pb-2 text-gray-200 hover:border-white"
-                                    style="opacity: @(selectedColorOption == ColorOption.Picker ? 1 : 0.5)">
+                                    style="opacity: @(selectedColorOption == ColorOption.Picker ? "1" : "0.5")">
                                 Picker
                             </button>
                             <button @onclick="() => SelectColorOption(ColorOption.Custom)"
                                     class="border-b-2 pb-2 text-gray-200 hover:border-white"
-                                    style="opacity: @(selectedColorOption == ColorOption.Custom ? 1 : 0.5)">
+                                    style="opacity: @(selectedColorOption == ColorOption.Custom ? "1" : "0.5")">
                                 Custom
                             </button>
                         </div>
@@ -117,7 +117,7 @@
 
                         <!-- Model Selection DallE2 -->
                         <div class="flex flex-col items-center text-center gap-4 transition-transform duration-200 ease-in-out"
-                             style="transform: scale(@(command.Model == AIModelType.DallE2 ? 1.25 : 1));">
+                             style="transform: scale(@(command.Model == AIModelType.DallE2 ? "1.25" : "1"));">
                             <img src="/images/ModelType/DallE2.png" alt="Model Type 1"
                                  class="cursor-pointer rounded-lg h-24 w-24"
                                  @onclick="() => command.Model = AIModelType.DallE2" />
@@ -129,7 +129,7 @@
 
                         <!-- Model Selection DallE3 -->
                         <div class="flex flex-col items-center text-center gap-4 transition-transform duration-200 ease-in-out"
-                             style="transform: scale(@(command.Model == AIModelType.DallE3 ? 1.25 : 1));">
+                             style="transform: scale(@(command.Model == AIModelType.DallE3 ? "1.25" : "1"));">
                             <img src="/images/ModelType/DallE3.png" alt="Model Type 2"
                                  class="cursor-pointer rounded-lg h-24 w-24"
                                  @onclick="() => command.Model = AIModelType.DallE3" />
@@ -154,8 +154,8 @@
                         {
                             <div class="flex flex-col items-center justify-center gap-4">
                                 <img src="@DesignTypeImagePaths[designType]" alt="@designType"
-                                     class="cursor-pointer rounded-lg transition-transform duration-200 ease-in-out h-24 w-24" style="transform: scale(@(selectedDesignType == designType ? 1.25 : 1));
-                            opacity: @(selectedDesignType == designType ? 1 : 0.5);"
+                                     class="cursor-pointer rounded-lg transition-transform duration-200 ease-in-out h-24 w-24" style="transform: scale(@(selectedDesignType == designType ? "1.25" : "1"));
+                            opacity: @(selectedDesignType == designType ? "1" : "0.5");"
                                      @onclick="() => SelectDesignType(designType)" />
                                 <span class="text-sm mt-2">@designType.ToString()</span>
                             </div>
@@ -174,32 +174,32 @@
                         {
                             <div class="flex flex-col items-center text-center gap-4">
                                 <div class="cursor-pointer rounded-lg h-24 w-24 bg-gray-800 flex justify-center items-center text-white transition-transform duration-200 ease-in-out  "
-                                     style='@($"transform: scale({(selectedIconSize == iconSize ? 1.25 : 1)}); opacity: {(selectedIconSize == iconSize ? 1 : 0.5)};")'
+                                     style='@($"transform: scale({(selectedIconSize == iconSize ? "1.25" : "1")}); opacity: {(selectedIconSize == iconSize ? "1" : "0.5")};")'
                                      @onclick="() => SelectIconSize(iconSize)">
                                     @if (iconSize == IconSize.Small)
                                     {
                                         <div class="text-xs mt-1  "
-                                             style='@($"transform: scale({(selectedIconSize == iconSize ? 1.25 : 1)}); opacity: {(selectedIconSize == iconSize ? 1 : 0.5)};")'>
+                                             style='@($"transform: scale({(selectedIconSize == iconSize ? "1.25" : "1")}); opacity: {(selectedIconSize == iconSize ? "1" : "0.5")};")'>
                                             Small (256x256)
                                         </div>
                                     }
                                     else if (iconSize == IconSize.Medium)
                                     {
                                         <span class="text-xs mt-1"
-                                              style='@($"transform: scale({(selectedIconSize == iconSize ? 1.25 : 1)}); opacity: {(selectedIconSize == iconSize ? 1 : 0.5)};")'>
+                                              style='@($"transform: scale({(selectedIconSize == iconSize ? "1.25" : "1")}); opacity: {(selectedIconSize == iconSize ? "1" : "0.5")};")'>
                                             Medium (512x512)
                                         </span>
                                     }
                                     else if (iconSize == IconSize.Large)
                                     {
                                         <span class="text-xs mt-1 "
-                                              style='@($"transform: scale({(selectedIconSize == iconSize ? 1.25 : 1)}); opacity: {(selectedIconSize == iconSize ? 1 : 0.5)};")'>
+                                              style='@($"transform: scale({(selectedIconSize == iconSize ? "1.25" : "1")}); opacity: {(selectedIconSize == iconSize ? "1" : "0.5")};")'>
                                             Large (1024x1024)
                                         </span>
                                     }
                                 </div>
                                 <span class="text-md mt-1 "
-                                      style='@($"transform: scale({(selectedIconSize == iconSize ? 1.25 : 1)}); opacity: {(selectedIconSize == iconSize ? 1 : 0.5)};")'>
+                                      style='@($"transform: scale({(selectedIconSize == iconSize ? "1.25" : "1")}); opacity: {(selectedIconSize == iconSize ? "1" : "0.5")};")'>
                                     @iconSize
                                 </span>
                             </div>
@@ -214,7 +214,7 @@
                         <button @onclick="() => SelectShape(shape)"
                                 class="p-2 rounded-lg border border-gray-500 hover:border-gray-200 focus:outline-none">
                             <svg class="h-24 w-24 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                                 style='@($"transform: scale({(selectedShape == shape ? 1.10 : 1)}); opacity: {(selectedShape == shape ? 1 : 0.5)};")'>
+                                 style='@($"transform: scale({(selectedShape == shape ? "1.10" : "1")}); opacity: {(selectedShape == shape ? "1" : "0.5")};")'>
                                 @switch (shape)
                                 {
                                     case IconShape.Square:
