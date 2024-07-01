@@ -3,16 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\userauth\\commands\\register\\userauthregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\userauth\\commands\\register\\userauthregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\StripeIntegration\\StripeIntegrationMVC\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\orders\\commands\\add\\orderaddcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\orders\\commands\\add\\orderaddcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\showiconpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\showiconpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\services\\googleobjectstoragemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\services\\googleobjectstoragemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\interfaces\\iobjectstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\interfaces\\iobjectstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\services\\openaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\services\\openaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +42,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserAuthRegisterCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\Register\\UserAuthRegisterCommandHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwCAAAAA6AAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\StripeIntegration\\StripeIntegrationMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\StripeIntegration\\StripeIntegrationMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\StripeIntegration\\StripeIntegrationMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\StripeIntegration\\StripeIntegrationMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T10:44:37.574Z",
+              "WhenOpened": "2024-07-01T13:25:17.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IIdentityService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Title": "ShowIconPage.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\ShowIconPage.razor",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\ShowIconPage.razor",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\ShowIconPage.razor",
+              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\ShowIconPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T11:38:45.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwDUAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T10:43:42.428Z",
+              "WhenOpened": "2024-07-01T11:23:27.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersAuthController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "RelativeToolTip": "MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAowGsAAAALAAAA",
+              "Title": "OrderAddCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T10:34:42.738Z",
+              "WhenOpened": "2024-07-01T10:34:19.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OpenAIManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\OpenAIManager.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwEYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:30:33.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GoogleObjectStorageManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\GoogleObjectStorageManager.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\GoogleObjectStorageManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\GoogleObjectStorageManager.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\GoogleObjectStorageManager.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwDAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:42:59.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IObjectStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IObjectStorageService.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Interfaces\\IObjectStorageService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IObjectStorageService.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Interfaces\\IObjectStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:39:29.605Z",
               "EditorCaption": ""
             }
           ]

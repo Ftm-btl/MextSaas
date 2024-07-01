@@ -35,7 +35,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
                         Prompt = CreateIconPrompt(requestDto),
                         N = 1,
                         Size = GetSize(requestDto.Size),
-                        ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Url,
+                        ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Base64,
                         User = _currentUserService.UserId.ToString(),
                         Model = Models.Dall_e_3
                     }, cancellationToken));
@@ -46,7 +46,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
                 var responses = await Task.WhenAll(openAITasks);
 
                 return responses
-                    .SelectMany(response => response.Results.Select(result => result.Url))
+                    .SelectMany(response => response.Results.Select(result => result.B64))
                     .ToList();
             }
 
@@ -56,7 +56,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
                 Prompt = CreateIconPrompt(requestDto),
                 N = requestDto.Quantity,
                 Size = GetSize(requestDto.Size),
-                ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Url,
+                ResponseFormat = StaticValues.ImageStatics.ResponseFormat.Base64,
                 User = _currentUserService.UserId.ToString(),
                 Model = Models.Dall_e_3
             }, cancellationToken);
@@ -68,7 +68,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
 
             return imageResult
                 .Results
-                .Select(x => x.Url)
+                .Select(x => x.B64)
                 .ToList();
 
         }

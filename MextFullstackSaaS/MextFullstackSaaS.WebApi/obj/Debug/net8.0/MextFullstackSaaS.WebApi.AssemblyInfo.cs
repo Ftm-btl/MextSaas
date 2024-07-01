@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MextFullstackSaaS.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00c9e37be09e57b9ff71f0315d5cf245367b6a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75c25f1d720bb8e8186deb6fd03a06e78bb115f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MextFullstackSaaS.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MextFullstackSaaS.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

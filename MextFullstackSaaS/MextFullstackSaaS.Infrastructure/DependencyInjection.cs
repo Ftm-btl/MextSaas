@@ -11,6 +11,7 @@ using OpenAI.Extensions;
 using OpenAI.Managers;
 using OpenAI.ObjectModels;
 using Resend;
+using System.Formats.Asn1;
 
 
 namespace MextFullstackSaaS.Infrastructure
@@ -50,6 +51,7 @@ namespace MextFullstackSaaS.Infrastructure
             services.AddScoped<IJwtService, JwtManager>();
             services.AddScoped<IIdentityService, IdentityManager>();
             services.AddScoped<IEmailService, ResendEmailManager>();
+            services.AddScoped<IObjectStorageService, GoogleObjectStorageManager>();
 
             //OpenAI
             services.AddOpenAIService(settings =>

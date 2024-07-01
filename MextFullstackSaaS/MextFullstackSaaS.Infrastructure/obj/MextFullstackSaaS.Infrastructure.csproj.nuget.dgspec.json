@@ -208,6 +208,10 @@
               "target": "Package",
               "version": "[8.3.0, )"
             },
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
