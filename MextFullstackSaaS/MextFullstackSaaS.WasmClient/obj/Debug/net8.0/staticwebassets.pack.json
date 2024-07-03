@@ -133,6 +133,14 @@
       "PackagePath": "staticwebassets\\images\\ModelType\\DallE3.png"
     },
     {
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\images\\profile.jpeg",
+      "PackagePath": "staticwebassets\\images\\profile.jpeg"
+    },
+    {
       "Id": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

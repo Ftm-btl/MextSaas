@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240522113750_InitialCreate")]
+    [Migration("20240702073615_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -44,13 +44,15 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.Property<DateTimeOffset>("CreatedOn")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
                     b.Property<int>("DesignType")
                         .HasColumnType("integer");
 
                     b.Property<string>("IconDescription")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
 
                     b.Property<int>("Model")
                         .HasColumnType("integer");
@@ -319,7 +321,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                         {
                             Id = new Guid("35c16d2a-f25b-4701-9a74-ea1fb7ed6d93"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0229a7ab-9d44-4acc-b015-7e1b055c3c44",
+                            ConcurrencyStamp = "559fa21d-27f2-4526-9a0a-2cc70a00d204",
                             CreatedByUserId = "35c16d2a-f25b-4701-9a74-ea1fb7ed6d93",
                             CreatedOn = new DateTimeOffset(new DateTime(2024, 5, 22, 13, 16, 31, 0, DateTimeKind.Unspecified), new TimeSpan(0, 3, 0, 0, 0)),
                             Email = "mextuser@gmail.com",
@@ -329,7 +331,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                             LockoutEnabled = false,
                             NormalizedEmail = "MEXTUSER@GMAIL.COM",
                             NormalizedUserName = "MEXTUSER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKoV0wYuyFv39yAVFKji+uShVZxJ+cjbQrMtHWNmlIYe/nbcjryMqvpvZXQv7DAadA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFmRkNucPoBKjU+rW7XHg9diPUR/s4QDxhgw2DcYPuCNjsklEiWdjv100eEqtva3Vg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "6c185769-9f7b-47e8-a70c-dc7b892089de",
                             TwoFactorEnabled = false,

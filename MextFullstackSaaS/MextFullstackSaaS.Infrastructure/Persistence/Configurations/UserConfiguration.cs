@@ -32,7 +32,11 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Configurations
 
             //PhoneNumber
             builder.Property(u => u.PhoneNumber).IsRequired(false);
-            builder.Property(u => u.PhoneNumber).HasMaxLength(20);
+            builder.Property(u => u.PhoneNumber).HasMaxLength(20); 
+            
+            //ProfileImage
+            builder.Property(u => u.ProfileImage).IsRequired(false);
+            builder.Property(u => u.ProfileImage).HasMaxLength(300);
 
 
             // The relationships between User and other entity types

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fbUBGlKEuY54esUiw0j102jGbXxfbbIgChLOraCgIp4=",
+  "Hash": "86XggUEBFrj1Crmq/w339P3QnPg6CJao4OzvME/7SCI=",
   "Source": "MextFullstackSaaS.WasmClient",
   "BasePath": "/",
   "Mode": "Root",
@@ -9688,6 +9688,25 @@
       "OriginalItemSpec": "wwwroot\\images\\DesignType\\woodcut.png"
     },
     {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\images\\logo.png",
+      "SourceId": "MextFullstackSaaS.WasmClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
       "Identity": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\images\\ModelType\\DallE2.png",
       "SourceId": "MextFullstackSaaS.WasmClient",
       "SourceType": "Discovered",
@@ -9724,6 +9743,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ModelType\\DallE3.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\images\\profile.jpeg",
+      "SourceId": "MextFullstackSaaS.WasmClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/profile.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile.jpeg"
     },
     {
       "Identity": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\index.html",

@@ -1,6 +1,11 @@
 ﻿using MediatR;
 using MextFullstackSaaS.Application.Common.Models;
-
+using MextFullstackSaaS.Domain.Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.VerifyEmail
 {
@@ -11,13 +16,10 @@ namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.VerifyEmail
 
         public UserAuthVerifyEmailCommand(string email, string token)
         {
-            Email = email;
-            Token = token;
+            Email = Email;
+            Token = Token;
         }
 
-        public UserAuthVerifyEmailCommand()
-        {
-
-        }
+        public UserAuthVerifyEmailCommand() { }
     }
 }

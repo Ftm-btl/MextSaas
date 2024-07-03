@@ -13,6 +13,32 @@ namespace MextFullstackSaaS.Infrastructure.Services
         {
             _credential = GoogleCredential.FromFile("C: \\Users\\user\\OneDrive\\Masaüstü\\awesome-delight-428107-i8-285b5265cce5.json");
         }
+
+        public async Task<bool> RemoveAsync(string key, CancellationToken cancellationToken)
+        {
+            // Create a new Google Cloud Storage client
+            using var storage = await StorageClient.CreateAsync(_credential);
+
+            //Create DEleteObjectOptions
+            var options = new DeleteObjectOptions() { };
+
+            //Delete the file from Google Cloud Storage
+            await storage.DeleteObjectAsync(BucketName, key, cancellationToken:cancellationToken);
+
+            return true;
+        }
+        public async Task<bool> RemoveAsync(List<string> keys, CancellationToken cancellationToken)
+        {
+            // Create a new Google Cloud Storage client
+            using var storage = await StorageClient.CreateAsync(_credential);
+
+            var deleteTasks=keys.Select(key=> storage.DeleteObjectAsync(BucketName, key,cancellationToken:cancellationToken));
+
+            await Task.WhenAll(deleteTasks);
+
+            return true;
+        }
+
         public async Task<string> UploadImageAsync(string imageData, CancellationToken cancellationToken)
         {
             // Convert the base64 string to byte array
@@ -48,5 +74,7 @@ namespace MextFullstackSaaS.Infrastructure.Services
             var results = await Task.WhenAll(uploadTasks);
             return results.ToList();
         }
+
+        
     }
 }

@@ -27,4 +27,8 @@
     <ProjectReference Include="..\MextFullstackSaaS.Application\MextFullstackSaaS.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Persistence\Migrations\ApplicationDB\" />
+  </ItemGroup>
+
 </Project>

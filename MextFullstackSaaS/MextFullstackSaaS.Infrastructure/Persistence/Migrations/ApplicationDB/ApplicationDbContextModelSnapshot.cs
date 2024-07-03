@@ -289,6 +289,10 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("ProfileImage")
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
@@ -318,7 +322,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                         {
                             Id = new Guid("35c16d2a-f25b-4701-9a74-ea1fb7ed6d93"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b0f63120-83d0-4ca6-afb0-289cc3aee817",
+                            ConcurrencyStamp = "0b58941c-1bd0-490e-b39e-6fb1adc6794a",
                             CreatedByUserId = "35c16d2a-f25b-4701-9a74-ea1fb7ed6d93",
                             CreatedOn = new DateTimeOffset(new DateTime(2024, 5, 22, 13, 16, 31, 0, DateTimeKind.Unspecified), new TimeSpan(0, 3, 0, 0, 0)),
                             Email = "mextuser@gmail.com",
@@ -328,7 +332,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                             LockoutEnabled = false,
                             NormalizedEmail = "MEXTUSER@GMAIL.COM",
                             NormalizedUserName = "MEXTUSER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEP1XiqyuQPZ4/ldLjQYdp+cJPm6r4yPQY514T7w7yL8V40LcwSjGSH5/s3q4H9+new==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAGx4P4+LtEsbl9MCOM/AGLv/jtRtE7vsjhkZ2cvpxnZ+w3kur1VRdJfnzpEsd2yxA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "6c185769-9f7b-47e8-a70c-dc7b892089de",
                             TwoFactorEnabled = false,

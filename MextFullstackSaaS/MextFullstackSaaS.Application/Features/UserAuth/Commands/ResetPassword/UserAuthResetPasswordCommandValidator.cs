@@ -1,33 +1,38 @@
 ﻿using FluentValidation;
 using MextFullstackSaaS.Application.Common.FluentValidator.BaseValidators;
 using MextFullstackSaaS.Application.Common.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.ResetPassword
+namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Password.ResetPassword
 {
-    public class UserAuthResetPasswordCommandValidator: UserAuthValidatorBase<UserAuthResetPasswordCommand>
+    public class UserAuthResetPasswordCommandValidator : UserAuthValidatorBase<UserAuthResetPasswordCommand>
     {
-        public UserAuthResetPasswordCommandValidator(IIdentityService identityService) : base(identityService) 
+        public UserAuthResetPasswordCommandValidator(IIdentityService identityService) : base(identityService)
         {
-            RuleFor(p => p.Email)
+            RuleFor(x => x.Email)
                 .NotEmpty().WithMessage("Email is required")
-                .EmailAddress().WithMessage("Email is not valid"); 
+                .EmailAddress().WithMessage("Email is not valid")
+                .MustAsync(CheckIfUserExists).WithMessage("User with this email does not exist")
+                .MustAsync(CheckIfEmailVerifiedAsync).WithMessage("Email is not verified. Please verify your email");
 
-            RuleFor(p => p.Token)
-                .NotEmpty().WithMessage("Email is required")
-                .EmailAddress().WithMessage("Email is not valid");
+            RuleFor(x => x.Password)
+                .NotEmpty().WithMessage("Password is required")
+                .MinimumLength(6).WithMessage("Password must be at least 6 characters");
 
-            RuleFor(p => p.NewPassword)
-                .NotEmpty().WithMessage("Email is required")
-                .EmailAddress().WithMessage("Email is not valid");
+            RuleFor(x => x.ConfirmPassword)
+                .NotEmpty().WithMessage("Confirm Password is required")
+                .Equal(x => x.Password).WithMessage("Passwords do not match");
         }
-        private Task<bool> CheckIfEmailExistsAsync(string email, CancellationToken cancellationToken)
+
+        private async Task<bool> CheckIfUserExists(string email, CancellationToken cancellationToken)
         {
-            return _identityService.IsEmailExistsAsync(email, cancellationToken);
+            return await _identityService.IsEmailExistsAsync(email, cancellationToken);
+        }
+
+        private Task<bool> CheckIfEmailVerifiedAsync(string email, CancellationToken cancellationToken)
+        {
+            return _identityService.CheckIfEmailVerifiedAsync(email, cancellationToken);
         }
     }
 }

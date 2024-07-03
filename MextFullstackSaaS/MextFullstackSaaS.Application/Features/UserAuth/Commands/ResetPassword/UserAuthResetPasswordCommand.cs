@@ -1,24 +1,20 @@
 ﻿using MediatR;
 using MextFullstackSaaS.Application.Common.Models;
+using MextFullstackSaaS.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.ResetPassword
+namespace MextFullstackSaaS.Application.Features.UserAuth.Commands.Password.ResetPassword
 {
-    public class UserAuthResetPasswordCommand:IRequest<ResponseDto<bool>>
+    public class UserAuthResetPasswordCommand : IRequest<ResponseDto<bool>>
     {
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
         public string Email { get; set; }
         public string Token { get; set; }
-        public string NewPassword { get; set; }
-
-        public UserAuthResetPasswordCommand(string email, string token, string newPassword)
-        {
-            Email = email;
-            Token = token;
-            NewPassword = newPassword;
-        }
     }
+
 }

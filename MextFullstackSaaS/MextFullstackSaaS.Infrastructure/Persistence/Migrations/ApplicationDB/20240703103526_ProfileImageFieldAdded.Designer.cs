@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240528074623_mig_1")]
-    partial class mig_1
+    [Migration("20240703103526_ProfileImageFieldAdded")]
+    partial class ProfileImageFieldAdded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,13 +44,15 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.Property<DateTimeOffset>("CreatedOn")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
                     b.Property<int>("DesignType")
                         .HasColumnType("integer");
 
                     b.Property<string>("IconDescription")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
 
                     b.Property<int>("Model")
                         .HasColumnType("integer");
@@ -290,6 +292,10 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("ProfileImage")
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
@@ -319,7 +325,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                         {
                             Id = new Guid("35c16d2a-f25b-4701-9a74-ea1fb7ed6d93"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "66cae961-6bd9-4b82-8f43-807708e9aa62",
+                            ConcurrencyStamp = "0b58941c-1bd0-490e-b39e-6fb1adc6794a",
                             CreatedByUserId = "35c16d2a-f25b-4701-9a74-ea1fb7ed6d93",
                             CreatedOn = new DateTimeOffset(new DateTime(2024, 5, 22, 13, 16, 31, 0, DateTimeKind.Unspecified), new TimeSpan(0, 3, 0, 0, 0)),
                             Email = "mextuser@gmail.com",
@@ -329,7 +335,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                             LockoutEnabled = false,
                             NormalizedEmail = "MEXTUSER@GMAIL.COM",
                             NormalizedUserName = "MEXTUSER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFSwGfdGTi8MuU5aqRkNilQAbX+eEVHG3Vf2P5YlLeKv4Wt8Cy65ZKW16uPtLubX6w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAGx4P4+LtEsbl9MCOM/AGLv/jtRtE7vsjhkZ2cvpxnZ+w3kur1VRdJfnzpEsd2yxA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "6c185769-9f7b-47e8-a70c-dc7b892089de",
                             TwoFactorEnabled = false,
