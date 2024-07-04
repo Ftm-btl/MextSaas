@@ -28,6 +28,7 @@ namespace MextFullstackSaaS.Infrastructure
 
             services.Configure<JwtSettings>(jwtSettings => configuration.GetSection("JwtSettings").Bind(jwtSettings));
             services.Configure<GoogleSettings>(gooleSettings => configuration.GetSection("GoogleSettings").Bind(gooleSettings));
+            services.Configure<IyzicoSettings>(iyzicoSettings => configuration.GetSection("IyzicoSettings").Bind(iyzicoSettings));
 
             services.AddIdentity<User, Role>(options =>
             {
@@ -52,6 +53,7 @@ namespace MextFullstackSaaS.Infrastructure
             services.AddScoped<IIdentityService, IdentityManager>();
             services.AddScoped<IEmailService, ResendEmailManager>();
             services.AddScoped<IObjectStorageService, GoogleObjectStorageManager>();
+            services.AddScoped<IPaymentServices,IyzicoPaymentManager>();
 
             //OpenAI
             services.AddOpenAIService(settings =>

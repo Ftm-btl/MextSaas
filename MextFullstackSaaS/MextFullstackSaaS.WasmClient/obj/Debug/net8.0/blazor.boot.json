@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MextFullstackSaaS.WasmClient",
   "resources": {
-    "hash": "sha256-tgBQoXZQisEH6g4G5pTEJjv7NfH+7oOI89zeVA45/fU=",
+    "hash": "sha256-Ktiqp3Tyb9L54cV3xsVzmmZHIKtceFOzBCmU5y2JcdY=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.wzrvnrj7no.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -237,21 +237,21 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "MextFullstackSaaS.Application.wasm": "sha256-c7KFdiTIFuJISWU0++HVi6jYhO+/5Dj0J0xN8huUFqo=",
-      "MextFullstackSaaS.Domain.wasm": "sha256-67UWmnVKhF2TuROZ120LGruE48ZGksbIk4sslnjqtzs=",
-      "MextFullstackSaaS.WasmClient.wasm": "sha256-x4WTghG4pkUYR24EUUMULcdgo2AL348fSwpnZ9iRXZM="
+      "MextFullstackSaaS.Application.wasm": "sha256-LTDAhnQTRfJDHIGyfm+vx7vW7YbpoKm9gyjzOXGjbEs=",
+      "MextFullstackSaaS.Domain.wasm": "sha256-RCz1c3mEgJO8Owr6yJAuTrJasYWPOkva1QVxEvdUshQ=",
+      "MextFullstackSaaS.WasmClient.wasm": "sha256-Jv8UaHHCq0PMBqNsJw+krX2BDArN/rg5nxdN1MUyBGE="
     },
     "pdb": {
-      "MextFullstackSaaS.Application.pdb": "sha256-j8cLrORzkMeuNXdS+cIqKvFYWhDV91HYC/51vr1hB9c=",
-      "MextFullstackSaaS.Domain.pdb": "sha256-vAzJuEWhMsvQPdeuFBQdG/h44+ZZ1NkIQ9RcNO53KkE=",
-      "MextFullstackSaaS.WasmClient.pdb": "sha256-uj9kPVVuiuNB/jiL57bAezTmk0UEbQwYmKNyTJhwzIw="
+      "MextFullstackSaaS.Application.pdb": "sha256-pJXZGnLajsDpo+52kQYwozPLqYSvn1O0qCgWN3ttzGk=",
+      "MextFullstackSaaS.Domain.pdb": "sha256-MJNU6oQFd6LYyN3d4G/WrpQucLPBctD65WWRL3ACbms=",
+      "MextFullstackSaaS.WasmClient.pdb": "sha256-a7OiHZOrr2OFicLzhsesDcyDqaRyHbH5y9huJE6/m28="
     },
     "satelliteResources": {
       "en-GB": {
-        "MextFullstackSaaS.Application.resources.wasm": "sha256-ecrhH7sOSR9cIS1pfuFqxy5uBN79Vja+UNvWn+4gOcU="
+        "MextFullstackSaaS.Application.resources.wasm": "sha256-E/MtHxbyunxGD/mn1ppKnanbszVhN6oPRfWvQNcuXsU="
       },
       "tr-TR": {
-        "MextFullstackSaaS.Application.resources.wasm": "sha256-djP7mR4lieRvdmif+OpitDc14BGC/k3f/zJGfXGVjGo="
+        "MextFullstackSaaS.Application.resources.wasm": "sha256-vqnKAuKgUWIKILzOwt8uM6ChuWGY8dosILfrfUxTiTk="
       }
     }
   },

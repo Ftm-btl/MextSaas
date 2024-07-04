@@ -1,0 +1,7 @@
+﻿@page "/payment-success"
+
+
+@code {
+    [SupplyParameterFromQuery(Name ="conversationID")]
+    [Parameter] public string ConversationId { get; set; }
+}
