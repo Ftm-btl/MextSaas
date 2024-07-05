@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\payments\\commands\\completepayment\\paymentscompletepaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\payments\\commands\\completepayment\\paymentscompletepaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\services\\iyzicopaymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\services\\iyzicopaymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\paymentsuccesspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\paymentsuccesspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\models\\payments\\public class paymentscheckpaymentbytokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\models\\payments\\public class paymentscheckpaymentbytokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\payments\\commands\\createpaymentform\\paymentscreatepaymentformcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\payments\\commands\\createpaymentform\\paymentscreatepaymentformcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\persistence\\configurations\\userpaymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\persistence\\configurations\\userpaymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\payments\\commands\\completepayment\\paymentscompletepaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\payments\\commands\\completepayment\\paymentscompletepaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\payments\\commands\\createpaymentform\\paymentscreatepaymentformcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\payments\\commands\\createpaymentform\\paymentscreatepaymentformcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.domain\\settings\\iyzicosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|solutionrelative:mextfullstacksaas.domain\\settings\\iyzicosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|solutionrelative:mextfullstacksaas.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.domain\\enums\\currencycode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|solutionrelative:mextfullstacksaas.domain\\enums\\currencycode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\paymentsuccesspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\paymentsuccesspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -63,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.wasmclient\\pages\\profilepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{61686D62-F7FC-44DA-8DFD-5F1DDCA87EBF}|MextFullstackSaaS.WasmClient\\MextFullstackSaaS.WasmClient.csproj|solutionrelative:mextfullstacksaas.wasmclient\\pages\\profilepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\services\\identitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\services\\identitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|solutionrelative:mextfullstacksaas.webapi\\controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA81A825-C476-4AB0-896B-10480C532439}|MextFullstackSaaS.Infrastructure\\MextFullstackSaaS.Infrastructure.csproj|solutionrelative:mextfullstacksaas.infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\users\\queries\\getprofile\\usergetprofilequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\users\\queries\\getprofile\\usergetprofilequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\users\\queries\\getprofile\\usergetprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\users\\queries\\getprofile\\usergetprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\users\\queries\\getprofile\\usergetprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\features\\users\\queries\\getprofile\\usergetprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94900933-590D-4876-9A12-57F50A37DC4B}|MextFullstackSaaS.WebApi\\MextFullstackSaaS.WebApi.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\common\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|solutionrelative:mextfullstacksaas.application\\common\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2478162D-9212-42B1-A00D-A72D4C213F60}|MextFullstackSaaS.Domain\\MextFullstackSaaS.Domain.csproj|solutionrelative:mextfullstacksaas.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52FD5A6F-7CC1-4E3A-A6A4-21C121241B4E}|MextFullstackSaaS.Application\\MextFullstackSaaS.Application.csproj|c:\\users\\user\\documents\\github\\mextsaas\\mextfullstacksaas\\mextfullstacksaas.application\\features\\userauth\\commands\\verifyemail\\userauthverifyemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,19 +163,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABFAAAA",
+              "Title": "PaymentsCompletePaymentCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommandHandler.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommandHandler.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T12:43:05.173Z",
+              "WhenOpened": "2024-07-05T12:33:00.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IyzicoPaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAYwJMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:53:52.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "public class PaymentsCheckPaymentByTokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Models\\Payments\\public class PaymentsCheckPaymentByTokenResponse.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Models\\Payments\\public class PaymentsCheckPaymentByTokenResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Models\\Payments\\public class PaymentsCheckPaymentByTokenResponse.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Models\\Payments\\public class PaymentsCheckPaymentByTokenResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T13:06:37.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:59:41.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserPaymentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserPaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserPaymentConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserPaymentConfiguration.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserPaymentConfiguration.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:38:02.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentsCompletePaymentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommand.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommand.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CompletePayment\\PaymentsCompletePaymentCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:27:00.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "MextFullstackSaaS.WebApi\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:22:59.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentsCreatePaymentFormCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:18:24.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:36:39.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Domain\\Identity\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Identity\\User.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Domain\\Identity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:40:34.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CurrencyCode.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Enums\\CurrencyCode.cs",
+              "RelativeDocumentMoniker": "MextFullstackSaaS.Domain\\Enums\\CurrencyCode.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Enums\\CurrencyCode.cs",
+              "RelativeToolTip": "MextFullstackSaaS.Domain\\Enums\\CurrencyCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:07:01.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PaymentSuccessPage.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\PaymentSuccessPage.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\PaymentSuccessPage.razor",
@@ -188,85 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IyzicoPaymentManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\IyzicoPaymentManager.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:53:52.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaymentsCreatePaymentFormCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommandHandler.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommandHandler.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommandHandler.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T12:40:04.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwDcAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:36:39.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentsCreatePaymentFormCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Payments\\Commands\\CreatePaymentForm\\PaymentsCreatePaymentFormCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T12:39:13.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPaymentServices.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentServices.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentServices.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentServices.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Interfaces\\IPaymentServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:49:49.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IyzicoSettings.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Settings\\IyzicoSettings.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Domain\\Settings\\IyzicoSettings.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Settings\\IyzicoSettings.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Domain\\Settings\\IyzicoSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:35:10.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\appsettings.json",
@@ -274,12 +326,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WebApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-04T11:32:02.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T11:32:02.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "GeneratePage.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
@@ -287,12 +338,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\GeneratePage.razor",
               "ViewState": "AQIAAFEAAAAAAAAAAAAAAPQAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T11:08:56.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T11:08:56.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "OrderAddCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
@@ -300,12 +350,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandHandler.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAqwCwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:57:42.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:57:42.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "OrderAddCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandValidator.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandValidator.cs",
@@ -313,12 +362,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Orders\\Commands\\Add\\OrderAddCommandValidator.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAQwDYAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:50:42.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:50:42.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
@@ -326,12 +374,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T10:46:59.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:46:59.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "IdentityManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Services\\IdentityManager.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Services\\IdentityManager.cs",
@@ -339,25 +386,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\IdentityManager.cs",
               "ViewState": "AQIAAH4AAAAAAAAAAAAIwBMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:41:54.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T09:41:54.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProfilePage.razor",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\ProfilePage.razor",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\ProfilePage.razor",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\ProfilePage.razor",
-              "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\ProfilePage.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T09:54:11.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "NavBar.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Components\\NavBar.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Components\\NavBar.razor",
@@ -365,12 +398,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Components\\NavBar.razor",
               "ViewState": "AQIAAFcAAAAAAAAAAAAAwGEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T11:46:32.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T11:46:32.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Layout\\NavMenu.razor",
@@ -378,25 +410,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T10:10:01.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:10:01.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwCYAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:29:03.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "UsersAuthController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
@@ -404,12 +422,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WebApi\\Controllers\\UsersAuthController.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAQwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:36:21.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:36:21.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "UserAuthSocialLoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\SocialLogin\\UserAuthSocialLoginCommand.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\SocialLogin\\UserAuthSocialLoginCommand.cs",
@@ -417,12 +434,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\SocialLogin\\UserAuthSocialLoginCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:37:22.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:37:22.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "UserGetProfileQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileQueryHandler.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileQueryHandler.cs",
@@ -430,12 +446,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileQueryHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:14:55.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:14:55.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "UserGetProfileQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileQuery.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileQuery.cs",
@@ -443,25 +458,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:14:34.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:14:34.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserGetProfileDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileDto.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileDto.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileDto.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\Users\\Queries\\GetProfile\\UserGetProfileDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:14:16.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WebApi\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WebApi\\Controllers\\UsersController.cs",
@@ -469,12 +470,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WebApi\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:03:46.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:03:46.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\wwwroot\\css\\app.css",
@@ -482,12 +482,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\wwwroot\\css\\app.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAKUMAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-03T10:01:42.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:01:42.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "OiProfile.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Components\\Icons\\OiProfile.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Components\\Icons\\OiProfile.razor",
@@ -495,25 +494,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Components\\Icons\\OiProfile.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T09:53:17.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T09:53:17.509Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Identity\\User.cs",
-              "RelativeDocumentMoniker": "MextFullstackSaaS.Domain\\Identity\\User.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Domain\\Identity\\User.cs",
-              "RelativeToolTip": "MextFullstackSaaS.Domain\\Identity\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:40:34.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
               "Title": "IIdentityService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
               "RelativeDocumentMoniker": "MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
@@ -521,12 +506,11 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Common\\Interfaces\\IIdentityService.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAjwB4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:47:17.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:47:17.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Pages\\Home.razor",
@@ -534,12 +518,11 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\Home.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T10:09:50.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:09:50.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "OiHaertIcon.razor",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\MextSaas\\MextFullstackSaaS\\MextFullstackSaaS.WasmClient\\Components\\Icons\\OiHaertIcon.razor",
               "RelativeDocumentMoniker": "MextFullstackSaaS.WasmClient\\Components\\Icons\\OiHaertIcon.razor",
@@ -547,8 +530,7 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Components\\Icons\\OiHaertIcon.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T12:43:41.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T12:43:41.234Z"
             },
             {
               "$type": "Document",
@@ -560,8 +542,7 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\CommunityPage.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T11:11:46.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T11:11:46.434Z"
             },
             {
               "$type": "Document",
@@ -573,8 +554,7 @@
               "RelativeToolTip": "MextFullstackSaaS.Infrastructure\\Services\\ResendEmailManager.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAQwEgAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:49:09.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:49:09.8Z"
             },
             {
               "$type": "Document",
@@ -586,8 +566,7 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:28:00.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:28:00.461Z"
             },
             {
               "$type": "Document",
@@ -599,8 +578,7 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:27:13.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:27:13.312Z"
             },
             {
               "$type": "Document",
@@ -612,8 +590,7 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommandHandler.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAYwBkAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:27:04.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:27:04.207Z"
             },
             {
               "$type": "Document",
@@ -625,8 +602,7 @@
               "RelativeToolTip": "MextFullstackSaaS.Application\\Features\\UserAuth\\Commands\\VerifyEmail\\UserAuthVerifyEmailCommandValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:22:56.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:22:56.576Z"
             },
             {
               "$type": "Document",
@@ -638,8 +614,7 @@
               "RelativeToolTip": "MextFullstackSaaS.WasmClient\\Pages\\RegisterPage.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAM8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T10:09:40.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:09:40.534Z"
             }
           ]
         }

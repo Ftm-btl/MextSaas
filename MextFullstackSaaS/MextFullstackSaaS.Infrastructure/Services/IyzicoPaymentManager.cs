@@ -1,17 +1,18 @@
 ﻿using Iyzipay.Model;
 using Iyzipay.Request;
 using MextFullstackSaaS.Application.Common.Interfaces;
+using MextFullstackSaaS.Application.Common.Models.Payments;
 using MextFullstackSaaS.Domain.Settings;
 using Microsoft.Extensions.Options;
 using Options = Iyzipay.Options;
 
 namespace MextFullstackSaaS.Infrastructure.Services
 {
-    public class IyzicoPaymentManager : IPaymentServices
+    public class IyzicoPaymentManager : IPaymentService
     {
         private readonly Options _options;
-
-        public IyzicoPaymentManager(IOptions<IyzicoSettings> settings)
+        private readonly ICurrentUserService _currentUserService;
+        public IyzicoPaymentManager(IOptions<IyzicoSettings> settings, ICurrentUserService currentUserService)
         {
             _options = new Options
             {
@@ -19,22 +20,29 @@ namespace MextFullstackSaaS.Infrastructure.Services
                 SecretKey = settings.Value.SecretKey,
                 BaseUrl = settings.Value.BaseUrl
             };
+            _currentUserService = currentUserService;
         }
 
-        public async Task<object> CreateCheckoutFormAsync(CancellationToken cancellationToken)
+        private const int OneCreditPrice = 10;
+        private const string CallbackUrl = "https://localhost:7281/api/Payments/complete-paymnet/";
+
+        public  PaymentsCreateCheckoutFormResponse CreateCheckoutForm(PaymentsCreateCheckoutFormRequest userRequest)
         {
-            var conversationId = "123456789";
+            var price = userRequest.Credits * OneCreditPrice;
+            var paidPrice = price;
+            var basketId=Guid.NewGuid().ToString();
+            var conversationId=Guid.NewGuid().ToString();
 
             CreateCheckoutFormInitializeRequest request = new CreateCheckoutFormInitializeRequest
             {
                 Locale = Locale.TR.ToString(),
-                ConversationId = "123456789",
-                Price = "100",
-                PaidPrice = "100",
+                ConversationId = conversationId,
+                Price = price.ToString(),
+                PaidPrice = paidPrice.ToString(),
                 Currency = Currency.TRY.ToString(),
-                BasketId = "B123456",
+                BasketId = basketId,
                 PaymentGroup = PaymentGroup.PRODUCT.ToString(),
-                CallbackUrl = "https://localhost:7281/api/Payments/payment-result/"
+                CallbackUrl = CallbackUrl
             };
 
             List<int> enabledInstallments = new List<int>();
@@ -49,40 +57,42 @@ namespace MextFullstackSaaS.Infrastructure.Services
 
             Buyer buyer = new Buyer
             {
-                Id = "BY789",
-                Name = "Alper",
-                Surname = "Tunga",
-                GsmNumber = "+905350000000",
-                Email = "email@email.com",
+                Id = _currentUserService.UserId.ToString(),
+                Name = userRequest.PaymentDetail.FirstName,
+                Surname = userRequest.PaymentDetail.LastName,
+                GsmNumber = userRequest.PaymentDetail.PhoneNumber,
+                Email = userRequest.PaymentDetail.Email,
                 IdentityNumber = "74300864791",
-                LastLoginDate = "2015-10-05 12:43:35",
+                LastLoginDate = userRequest.PaymentDetail.LastLoginDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 RegistrationDate = "2013-04-21 15:12:09",
-                RegistrationAddress = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+                RegistrationAddress = userRequest.PaymentDetail.Address,
                 Ip = "85.34.78.112",
                 City = "Istanbul",
                 Country = "Turkey",
                 ZipCode = "34732"
             };
+
+            //UserAddress
             request.Buyer = buyer;
-           
 
             Address billingAddress = new Address
             {
-                ContactName = "Jane Doe",
+                ContactName = $"{userRequest.PaymentDetail.FirstName} {userRequest.PaymentDetail.LastName}",
                 City = "Istanbul",
                 Country = "Turkey",
-                Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
+                Description =userRequest.PaymentDetail.Address,
                 ZipCode = "34742"
             };
             request.BillingAddress = billingAddress;
 
             List<BasketItem> basketItems = new List<BasketItem>();
+
             BasketItem firstBasketItem = new BasketItem
             {
                 Id = "BI101",
-                Name = "IconBuilderAI 10 credits",
+                Name = $"IconBuilderAI {userRequest.Credits} credits",
                 ItemType = BasketItemType.VIRTUAL.ToString(),
-                Price = "100",
+                Price = paidPrice.ToString(),
                 Category1 = "Credits"
             };
             basketItems.Add(firstBasketItem);
@@ -91,7 +101,50 @@ namespace MextFullstackSaaS.Infrastructure.Services
 
             CheckoutFormInitialize checkoutFormInitialize = CheckoutFormInitialize.Create(request, _options);
 
-            return checkoutFormInitialize;
+            //Check the response if it is not successful throw an expect
+
+            return MapCheckoutFormInitializeResponse(checkoutFormInitialize,price,paidPrice,conversationId,basketId);
         }
+
+        public PaymentsCheckPaymentByTokenResponse CheckPaymentByToken(string token)
+        {
+            var conversationId = Guid.NewGuid().ToString();
+
+            RetrieveCheckoutFormRequest request = new RetrieveCheckoutFormRequest
+            {
+                ConversationId = conversationId,
+                Token = token,
+                Locale = Locale.TR.ToString()
+            };
+
+            CheckoutForm checkoutForm = CheckoutForm.Retrieve(request, _options);
+
+            return new PaymentsCheckPaymentByTokenResponse()
+            {
+                ConversationId = conversationId,
+                IsSuccess = checkoutForm.PaymentStatus.ToLowerInvariant() == "success",
+                PaymentStatus = checkoutForm.PaymentStatus,
+                ErrorCode = checkoutForm.ErrorCode,
+                ErrorGroup = checkoutForm.ErrorGroup,
+                ErrorMessage = checkoutForm.ErrorMessage
+            };
+        }
+
+        private PaymentsCreateCheckoutFormResponse MapCheckoutFormInitializeResponse(CheckoutFormInitialize checkoutFormInitialize, decimal price, decimal paidPrice, string conversationId, string basketId)
+        {
+            return new PaymentsCreateCheckoutFormResponse
+            {
+                Price = price,
+                PaidPrice = paidPrice,
+                ConversationId = conversationId,
+                BasketId = basketId,
+                Token = checkoutFormInitialize.Token,
+                TokenExpireTime = checkoutFormInitialize.TokenExpireTime,
+                CheckoutFormContent = checkoutFormInitialize.CheckoutFormContent,
+                PaymentPageUrl = checkoutFormInitialize.PaymentPageUrl
+            };
+        }
+
+        
     }
 }

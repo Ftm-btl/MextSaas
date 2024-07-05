@@ -172,6 +172,117 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.ToTable("UserBalanceHistories", (string)null);
                 });
 
+            modelBuilder.Entity("MextFullstackSaaS.Domain.Entities.UserPayment", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("BasketId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("ConversationId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("CreatedByUserId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("CurrencyCode")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Ip")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ModifiedByUserId")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<DateTimeOffset?>("ModifiedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Note")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<decimal>("PaidPrice")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal?>("RefundedAmount")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("character varying(300)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("UserPaymentDetail")
+                        .IsRequired()
+                        .HasColumnType("jsonb");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserPayments", (string)null);
+                });
+
+            modelBuilder.Entity("MextFullstackSaaS.Domain.Entities.UserPaymentHistory", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CreatedByUserId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ModifiedByUserId")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<DateTimeOffset?>("ModifiedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Note")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("UserPaymentId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserPaymentId");
+
+                    b.ToTable("UserPaymentHistories", (string)null);
+                });
+
             modelBuilder.Entity("MextFullstackSaaS.Domain.Identity.Role", b =>
                 {
                     b.Property<Guid>("Id")
@@ -322,7 +433,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                         {
                             Id = new Guid("35c16d2a-f25b-4701-9a74-ea1fb7ed6d93"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0b58941c-1bd0-490e-b39e-6fb1adc6794a",
+                            ConcurrencyStamp = "633ac37f-8490-432c-be39-5da30ffedcdd",
                             CreatedByUserId = "35c16d2a-f25b-4701-9a74-ea1fb7ed6d93",
                             CreatedOn = new DateTimeOffset(new DateTime(2024, 5, 22, 13, 16, 31, 0, DateTimeKind.Unspecified), new TimeSpan(0, 3, 0, 0, 0)),
                             Email = "mextuser@gmail.com",
@@ -332,7 +443,7 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                             LockoutEnabled = false,
                             NormalizedEmail = "MEXTUSER@GMAIL.COM",
                             NormalizedUserName = "MEXTUSER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAGx4P4+LtEsbl9MCOM/AGLv/jtRtE7vsjhkZ2cvpxnZ+w3kur1VRdJfnzpEsd2yxA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOaok+KLNLCEV3C6eWVTk1L9VOIwjvxXD2CXylNWOSJAwOl8yCbVZBOLyPsgmSxbQA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "6c185769-9f7b-47e8-a70c-dc7b892089de",
                             TwoFactorEnabled = false,
@@ -456,6 +567,28 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.Navigation("UserBalance");
                 });
 
+            modelBuilder.Entity("MextFullstackSaaS.Domain.Entities.UserPayment", b =>
+                {
+                    b.HasOne("MextFullstackSaaS.Domain.Identity.User", "User")
+                        .WithMany("Payment")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("MextFullstackSaaS.Domain.Entities.UserPaymentHistory", b =>
+                {
+                    b.HasOne("MextFullstackSaaS.Domain.Entities.UserPayment", "UserPayment")
+                        .WithMany("Histories")
+                        .HasForeignKey("UserPaymentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserPayment");
+                });
+
             modelBuilder.Entity("MextFullstackSaaS.Domain.Identity.RoleClaim", b =>
                 {
                     b.HasOne("MextFullstackSaaS.Domain.Identity.Role", null)
@@ -512,12 +645,19 @@ namespace MextFullstackSaaS.Infrastructure.Persistence.Migrations.ApplicationDB
                     b.Navigation("Histories");
                 });
 
+            modelBuilder.Entity("MextFullstackSaaS.Domain.Entities.UserPayment", b =>
+                {
+                    b.Navigation("Histories");
+                });
+
             modelBuilder.Entity("MextFullstackSaaS.Domain.Identity.User", b =>
                 {
                     b.Navigation("Balance")
                         .IsRequired();
 
                     b.Navigation("Orders");
+
+                    b.Navigation("Payment");
                 });
 #pragma warning restore 612, 618
         }

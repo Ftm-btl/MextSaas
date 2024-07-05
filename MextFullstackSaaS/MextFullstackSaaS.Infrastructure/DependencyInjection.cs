@@ -53,7 +53,7 @@ namespace MextFullstackSaaS.Infrastructure
             services.AddScoped<IIdentityService, IdentityManager>();
             services.AddScoped<IEmailService, ResendEmailManager>();
             services.AddScoped<IObjectStorageService, GoogleObjectStorageManager>();
-            services.AddScoped<IPaymentServices,IyzicoPaymentManager>();
+            services.AddScoped<IPaymentService,IyzicoPaymentManager>();
 
             //OpenAI
             services.AddOpenAIService(settings =>

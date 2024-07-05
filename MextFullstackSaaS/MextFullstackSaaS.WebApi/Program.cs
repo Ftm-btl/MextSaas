@@ -13,9 +13,8 @@ using Serilog;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
-    .WriteTo.File("C:\\Users\\user\\Desktop\\Log.txt", rollingInterval:RollingInterval.Day)
+    .WriteTo.File("C:\\Users\\user\\OneDrive\\Masaüstü\\Log.txt", rollingInterval:RollingInterval.Day)
     .CreateLogger();
-
 try
 {
     Log.Information("Starting web application");
@@ -23,7 +22,7 @@ try
 
     var builder = WebApplication.CreateBuilder(args);
 
-    builder.Services.AddSerilog();
+    builder.Host.UseSerilog();
 
     // Add services to the container.
 

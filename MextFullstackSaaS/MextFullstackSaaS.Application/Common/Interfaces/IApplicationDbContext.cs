@@ -11,6 +11,8 @@ namespace MextFullstackSaaS.Application.Common.Interfaces
         DbSet<UserBalance> UserBalances { get; set; }
 
         DbSet<UserBalanceHistory> UserBalanceHistories { get; set; }
+        DbSet<UserPayment> UserPayments { get; set; }
+        DbSet<UserPaymentHistory> userPaymentHistories { get; set; }
 
         DbSet<User> Users { get; set; }
 
